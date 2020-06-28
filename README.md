@@ -120,4 +120,8 @@ One set of SPI pins per peripheral: they might work at different speeds. And I t
 
 
 
-Active vs passive antennas:
+#### Questions
+- The wireless charging setup.
+- Battery level indicator.
+- GPS sleep mode and capacitors
+- 
