@@ -35,6 +35,12 @@
 || Rubber o-ring cabling | |  | Yes | |
 | **Total** | | | | |
 
+### Actually buying:
+
+[LS027B7DH01](https://www.aliexpress.com/item/33020027250.html?spm=a2g0o.productlist.0.0.36ee3a15mb1GMf&algo_pvid=aad3c1d1-297e-4d29-b040-a34f9ef8f99c&algo_expid=aad3c1d1-297e-4d29-b040-a34f9ef8f99c-1&btsid=0b0a119a15935113972186751eb958&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)
+The A indicates maximum of two bright pixels. 
+Need an FPC 10 pin connector
+
 ## Design
 
 3D printed
@@ -118,10 +124,45 @@ https://makerdyne.files.wordpress.com/2015/12/MemoryLCD_Breakout_Board_Schematic
 
 One set of SPI pins per peripheral: they might work at different speeds. And I think the asynchronous aspect would mean the LCD could be prioritized.
 
+https://github.com/DF4IAH/HFT-Core-Module
 
+Antenna:
+SIM868 is L1 band.
+Glonass L1: about 1602 MHz
+GPS L1: 1575.42 MHz
+Beidou: 1575.42 MHz (Possibly lower: 1561.098MHz?)
+
+https://www.antenova.com/integration-hub/antenna-selection-tool/
+
+Drawing antennas as part of the PCB seem like a bad idea. 
+They take a lot of testing.
+
+Mouser sells the SR4L049 (both left and right versions) for about 3 dollars. SR4L034 is very similar.
+
+The M20057 and M20047 modules combine the SAW and antenna. Power consumption is about 2ma,
+
+M20047 cost: 4.50 gbp from mouser and at digikey
+B3913 cost: 1.62gbp 
+SR4L034 cost: 1.44
+LNA?:
+
+
+I'm pretty sure it needs an LNA. So I'm going with 
+https://www.u-blox.com/sites/default/files/NEO-8Q-NEO-M8-FW3_HIM_%28UBX-15029985%29.pdf
+
+
+[Picking a saw filter from Mouser](https://www.mouser.com/pdfdocs/HowToChoosetheOptimalSAWFilter.pdf)
+
+SAW filter: You want something in the middle of the frequencies, so 1588ish and that has a wide enough bandwidth to capture the signals.
+Two come up: B3913 and B3413. The B4310 is used in the HFT-Core-Module.
+B4310 is from 2015. The B3913 and B3413 are very similar but the B3413 is newer and has improved electrostatic discharge (ESD) robustness. [Qualcomm RF360 website SAW filters for GNSS](https://rffe.qualcomm.com/product/search/automotive/Filters%20for%20GNSS). B4310 doesn't have Beidou next to it on the website. 
+I can't find the B3413 in stock, so I'm using the B3913 in stock at digi key.
 
 #### Questions
 - The wireless charging setup.
 - Battery level indicator.
-- GPS sleep mode and capacitors
-- 
+- Why polarized capacitor in decoupling?
+- RF SYNC
+- What about low noise ammplifer LNA?
+
+
