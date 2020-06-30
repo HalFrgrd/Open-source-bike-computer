@@ -1,4 +1,4 @@
-18674622808447967
+18677809854161169
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75460,6 +75460,13 @@ Connector
 14
 14
 SamacSys_Parts
+472192001
+47219-2001
+Connector
+0
+12
+12
+SamacSys_Parts
 ANTLTESP610T
 ANT-LTE-SP610-T-1
 Antenna
@@ -82226,8 +82233,8 @@ open_bike_comp
 
 
 0
-0
-0
+4
+2
 open_bike_comp
 B39162B3913U410
 
@@ -82249,3 +82256,10 @@ GY-9250
 0
 10
 10
+open_bike_comp
+touch_pad_1
+
+
+0
+2
+1

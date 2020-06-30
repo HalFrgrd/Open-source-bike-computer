@@ -86,7 +86,7 @@ U 1 1 5EF8A2B1
 P 950 3600
 F 0 "R1" H 1020 3646 50  0000 L CNN
 F 1 "4.7k" H 1020 3555 50  0000 L CNN
-F 2 "" V 880 3600 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 880 3600 50  0001 C CNN
 F 3 "~" H 950 3600 50  0001 C CNN
 	1    950  3600
 	1    0    0    -1  
@@ -119,7 +119,7 @@ U 1 1 5EF8B350
 P 2650 3350
 F 0 "C2" H 2765 3396 50  0000 L CNN
 F 1 "10uF" H 2765 3305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2688 3200 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 2688 3200 50  0001 C CNN
 F 3 "~" H 2650 3350 50  0001 C CNN
 	1    2650 3350
 	1    0    0    -1  
@@ -152,7 +152,7 @@ U 1 1 5EFA2991
 P 13450 1300
 F 0 "C10" H 13200 1350 50  0000 L CNN
 F 1 "0.1uF" H 13150 1250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 13488 1150 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 13488 1150 50  0001 C CNN
 F 3 "~" H 13450 1300 50  0001 C CNN
 	1    13450 1300
 	1    0    0    -1  
@@ -163,7 +163,7 @@ U 1 1 5EFA2C6A
 P 14450 1300
 F 0 "C12" H 14565 1346 50  0000 L CNN
 F 1 "1uF" H 14565 1255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 14488 1150 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 14488 1150 50  0001 C CNN
 F 3 "~" H 14450 1300 50  0001 C CNN
 	1    14450 1300
 	1    0    0    -1  
@@ -174,7 +174,7 @@ U 1 1 5EFA24DF
 P 14150 1300
 F 0 "C11" H 13900 1350 50  0000 L CNN
 F 1 "0.1uF" H 13850 1250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 14188 1150 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 14188 1150 50  0001 C CNN
 F 3 "~" H 14150 1300 50  0001 C CNN
 	1    14150 1300
 	1    0    0    -1  
@@ -248,7 +248,7 @@ U 1 1 5EFCF628
 P 1700 1350
 F 0 "R3" V 1650 1200 50  0000 C CNN
 F 1 "5.1k" V 1700 1350 50  0000 C CNN
-F 2 "" V 1630 1350 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 1630 1350 50  0001 C CNN
 F 3 "~" H 1700 1350 50  0001 C CNN
 	1    1700 1350
 	0    1    1    0   
@@ -259,7 +259,7 @@ U 1 1 5EFCFB3B
 P 1700 1950
 F 0 "R4" V 1750 2100 50  0000 C CNN
 F 1 "5.1k" V 1700 1950 50  0000 C CNN
-F 2 "" V 1630 1950 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 1630 1950 50  0001 C CNN
 F 3 "~" H 1700 1950 50  0001 C CNN
 	1    1700 1950
 	0    -1   -1   0   
@@ -270,7 +270,7 @@ U 1 1 5EFD6FFB
 P 13600 2550
 F 0 "R10" V 13393 2550 50  0000 C CNN
 F 1 "10k" V 13484 2550 50  0000 C CNN
-F 2 "" V 13530 2550 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 13530 2550 50  0001 C CNN
 F 3 "~" H 13600 2550 50  0001 C CNN
 	1    13600 2550
 	0    1    1    0   
@@ -281,7 +281,7 @@ U 1 1 5EFD7AD8
 P 14000 2550
 F 0 "R11" V 13793 2550 50  0000 C CNN
 F 1 "10k" V 13884 2550 50  0000 C CNN
-F 2 "" V 13930 2550 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 13930 2550 50  0001 C CNN
 F 3 "~" H 14000 2550 50  0001 C CNN
 	1    14000 2550
 	0    1    1    0   
@@ -329,7 +329,7 @@ U 1 1 5EFEC34E
 P 1000 5450
 F 0 "R2" H 1070 5496 50  0000 L CNN
 F 1 "100k" H 1070 5405 50  0000 L CNN
-F 2 "" V 930 5450 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 930 5450 50  0001 C CNN
 F 3 "~" H 1000 5450 50  0001 C CNN
 	1    1000 5450
 	1    0    0    -1  
@@ -340,7 +340,7 @@ U 1 1 5EFECFF4
 P 1650 5450
 F 0 "C1" H 1765 5496 50  0000 L CNN
 F 1 "10uF" H 1765 5405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1688 5300 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 1688 5300 50  0001 C CNN
 F 3 "~" H 1650 5450 50  0001 C CNN
 	1    1650 5450
 	1    0    0    -1  
@@ -362,7 +362,7 @@ U 1 1 5EFEE3A4
 P 3350 5450
 F 0 "C5" H 3465 5496 50  0000 L CNN
 F 1 "10uF" H 3465 5405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3388 5300 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 3388 5300 50  0001 C CNN
 F 3 "~" H 3350 5450 50  0001 C CNN
 	1    3350 5450
 	1    0    0    -1  
@@ -427,7 +427,7 @@ U 1 1 5F006C3F
 P 2100 5400
 F 0 "R5" H 2170 5446 50  0000 L CNN
 F 1 "100k" H 2170 5355 50  0000 L CNN
-F 2 "" V 2030 5400 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 2030 5400 50  0001 C CNN
 F 3 "~" H 2100 5400 50  0001 C CNN
 	1    2100 5400
 	1    0    0    -1  
@@ -470,7 +470,7 @@ U 1 1 5F02F317
 P 3250 3200
 F 0 "J2" H 3330 3192 50  0000 L CNN
 F 1 "LiPo_Conn" H 3330 3101 50  0000 L CNN
-F 2 "" H 3250 3200 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 3250 3200 50  0001 C CNN
 F 3 "~" H 3250 3200 50  0001 C CNN
 	1    3250 3200
 	1    0    0    -1  
@@ -497,7 +497,7 @@ U 1 1 5EF9883F
 P 2750 1400
 F 0 "C3" V 2498 1400 50  0000 C CNN
 F 1 "12pF" V 2589 1400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2788 1250 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 2788 1250 50  0001 C CNN
 F 3 "~" H 2750 1400 50  0001 C CNN
 	1    2750 1400
 	0    1    1    0   
@@ -508,7 +508,7 @@ U 1 1 5EF98E48
 P 2750 1900
 F 0 "C4" V 2498 1900 50  0000 C CNN
 F 1 "12pF" V 2589 1900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2788 1750 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 2788 1750 50  0001 C CNN
 F 3 "~" H 2750 1900 50  0001 C CNN
 	1    2750 1900
 	0    1    1    0   
@@ -559,7 +559,7 @@ U 1 1 5EF95D2C
 P 3050 1650
 F 0 "Y1" V 3004 1781 50  0000 L CNN
 F 1 "32.768 kHz" V 3095 1781 50  0000 L CNN
-F 2 "" H 3050 1650 50  0001 C CNN
+F 2 "Crystal:Crystal_DS26_D2.0mm_L6.0mm_Horizontal" H 3050 1650 50  0001 C CNN
 F 3 "~" H 3050 1650 50  0001 C CNN
 	1    3050 1650
 	0    1    1    0   
@@ -1121,7 +1121,7 @@ F 3 "" H 9400 1650 50  0001 C CNN
 	1    9400 1650
 	0    1    1    0   
 $EndComp
-Text GLabel 9400 1750 0    50   Input ~ 0
+Text GLabel 11000 1150 2    50   Input ~ 0
 SC_CARD_MISO
 Text GLabel 9400 1550 0    50   Input ~ 0
 SD_CARD_CLK
@@ -1134,11 +1134,9 @@ Wire Wire Line
 Wire Wire Line
 	9400 1550 9550 1550
 Wire Wire Line
-	9550 1750 9400 1750
-Wire Wire Line
 	9400 1250 9550 1250
 Text Notes 8750 850  0    50   ~ 0
-For cost and convenience purposes, I'm using a breakout.\nNo need for card insertion detection; card is always in.
+No need for card insertion detection; card is always in.
 Wire Notes Line
 	2300 2450 3850 2450
 Wire Notes Line
@@ -1235,67 +1233,67 @@ $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5F7FA9F3
-P 2500 9900
-F 0 "H1" V 2454 10050 50  0000 L CNN
-F 1 "Capacitive_button_1" V 2400 9200 50  0000 L CNN
-F 2 "" H 2500 9900 50  0001 C CNN
-F 3 "~" H 2500 9900 50  0001 C CNN
-	1    2500 9900
+P 2650 10000
+F 0 "H1" V 2604 10150 50  0000 L CNN
+F 1 "Capacitive_button_1" V 2550 9300 50  0000 L CNN
+F 2 "open_bike_comp:touch_pad_1" H 2650 10000 50  0001 C CNN
+F 3 "~" H 2650 10000 50  0001 C CNN
+	1    2650 10000
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 5F81A1A5
-P 2500 10100
-F 0 "H2" V 2454 10250 50  0000 L CNN
-F 1 "Capacitive_button_2" V 2400 9400 50  0000 L CNN
-F 2 "" H 2500 10100 50  0001 C CNN
-F 3 "~" H 2500 10100 50  0001 C CNN
-	1    2500 10100
+P 2650 10200
+F 0 "H2" V 2604 10350 50  0000 L CNN
+F 1 "Capacitive_button_2" V 2550 9500 50  0000 L CNN
+F 2 "open_bike_comp:touch_pad_1" H 2650 10200 50  0001 C CNN
+F 3 "~" H 2650 10200 50  0001 C CNN
+	1    2650 10200
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 5F81A3A0
-P 2500 10300
-F 0 "H3" V 2454 10450 50  0000 L CNN
-F 1 "Capacitive_button_3" V 2400 9600 50  0000 L CNN
-F 2 "" H 2500 10300 50  0001 C CNN
-F 3 "~" H 2500 10300 50  0001 C CNN
-	1    2500 10300
+P 2650 10400
+F 0 "H3" V 2604 10550 50  0000 L CNN
+F 1 "Capacitive_button_3" V 2550 9700 50  0000 L CNN
+F 2 "open_bike_comp:touch_pad_1" H 2650 10400 50  0001 C CNN
+F 3 "~" H 2650 10400 50  0001 C CNN
+	1    2650 10400
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 5F81A56C
-P 2500 10500
-F 0 "H4" V 2454 10650 50  0000 L CNN
-F 1 "Capacitive_button_4" V 2400 9800 50  0000 L CNN
-F 2 "" H 2500 10500 50  0001 C CNN
-F 3 "~" H 2500 10500 50  0001 C CNN
-	1    2500 10500
+P 2650 10600
+F 0 "H4" V 2604 10750 50  0000 L CNN
+F 1 "Capacitive_button_4" V 2550 9900 50  0000 L CNN
+F 2 "open_bike_comp:touch_pad_1" H 2650 10600 50  0001 C CNN
+F 3 "~" H 2650 10600 50  0001 C CNN
+	1    2650 10600
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H5
 U 1 1 5F81A6F9
-P 2500 10700
-F 0 "H5" V 2454 10850 50  0000 L CNN
-F 1 "Capacitive_button_5" V 2400 10000 50  0000 L CNN
-F 2 "" H 2500 10700 50  0001 C CNN
-F 3 "~" H 2500 10700 50  0001 C CNN
-	1    2500 10700
+P 2650 10800
+F 0 "H5" V 2604 10950 50  0000 L CNN
+F 1 "Capacitive_button_5" V 2550 10100 50  0000 L CNN
+F 2 "open_bike_comp:touch_pad_1" H 2650 10800 50  0001 C CNN
+F 3 "~" H 2650 10800 50  0001 C CNN
+	1    2650 10800
 	0    1    1    0   
 $EndComp
-Text GLabel 2400 9900 0    50   Input ~ 0
+Text GLabel 1600 10000 0    50   Input ~ 0
 CAP_BUTTON_1
-Text GLabel 2400 10100 0    50   Input ~ 0
+Text GLabel 1600 10200 0    50   Input ~ 0
 CAP_BUTTON_2
-Text GLabel 2400 10300 0    50   Input ~ 0
+Text GLabel 1600 10400 0    50   Input ~ 0
 CAP_BUTTON_3
-Text GLabel 2400 10500 0    50   Input ~ 0
+Text GLabel 1600 10600 0    50   Input ~ 0
 CAP_BUTTON_4
-Text GLabel 2400 10700 0    50   Input ~ 0
+Text GLabel 1600 10800 0    50   Input ~ 0
 CAP_BUTTON_5
 Wire Wire Line
 	8250 1000 8150 1000
@@ -1311,7 +1309,7 @@ U 1 1 5F890DFA
 P 2550 4350
 F 0 "R6" V 2450 4400 50  0000 C CNN
 F 1 "800k" V 2450 4250 50  0000 C CNN
-F 2 "" V 2480 4350 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 2480 4350 50  0001 C CNN
 F 3 "~" H 2550 4350 50  0001 C CNN
 	1    2550 4350
 	0    -1   -1   0   
@@ -1322,7 +1320,7 @@ U 1 1 5F89290C
 P 3150 4350
 F 0 "R7" V 3050 4400 50  0000 C CNN
 F 1 "2M" V 3050 4300 50  0000 C CNN
-F 2 "" V 3080 4350 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 3080 4350 50  0001 C CNN
 F 3 "~" H 3150 4350 50  0001 C CNN
 	1    3150 4350
 	0    -1   -1   0   
@@ -1404,7 +1402,7 @@ U 1 1 5F990E8A
 P 20400 200
 F 0 "C13" H 20150 250 50  0000 L CNN
 F 1 "0.1uF" H 20100 150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 20438 50  50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 20438 50  50  0001 C CNN
 F 3 "~" H 20400 200 50  0001 C CNN
 	1    20400 200 
 	1    0    0    -1  
@@ -1415,7 +1413,7 @@ U 1 1 5F990E94
 P 20600 200
 F 0 "C14" H 20715 246 50  0000 L CNN
 F 1 "10uF" H 20715 155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 20638 50  50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 20638 50  50  0001 C CNN
 F 3 "~" H 20600 200 50  0001 C CNN
 	1    20600 200 
 	1    0    0    -1  
@@ -1487,7 +1485,7 @@ U 1 1 5FB5F715
 P 2050 2700
 F 0 "J1" V 2150 2650 50  0000 L CNN
 F 1 "WirelessChargeConn" V 2150 1850 50  0000 L CNN
-F 2 "" H 2050 2700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2050 2700 50  0001 C CNN
 F 3 "~" H 2050 2700 50  0001 C CNN
 	1    2050 2700
 	0    -1   -1   0   
@@ -1604,7 +1602,7 @@ U 1 1 5FCD82A5
 P 5550 3550
 F 0 "R8" H 5700 3500 50  0000 R CNN
 F 1 "0" H 5700 3600 50  0000 R CNN
-F 2 "" V 5480 3550 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 5480 3550 50  0001 C CNN
 F 3 "~" H 5550 3550 50  0001 C CNN
 	1    5550 3550
 	0    -1   -1   0   
@@ -1615,7 +1613,7 @@ U 1 1 5FCD8EDC
 P 5950 3550
 F 0 "R9" H 5900 3500 50  0000 R CNN
 F 1 "0" H 5850 3600 50  0000 R CNN
-F 2 "" V 5880 3550 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 5880 3550 50  0001 C CNN
 F 3 "~" H 5950 3550 50  0001 C CNN
 	1    5950 3550
 	0    -1   -1   0   
@@ -1734,48 +1732,48 @@ Temperature and pressure sensor breakout
 $Comp
 L Connector:Conn_01x05_Female J3
 U 1 1 600EC6C6
-P 2800 10300
-F 0 "J3" H 2692 9875 50  0000 C CNN
-F 1 "GND_pads" H 2650 9950 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 2800 10300 50  0001 C CNN
-F 3 "~" H 2800 10300 50  0001 C CNN
-	1    2800 10300
-	-1   0    0    1   
+P 900 10400
+F 0 "J3" H 792 9975 50  0000 C CNN
+F 1 "GND_pads" H 750 10050 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 900 10400 50  0001 C CNN
+F 3 "~" H 900 10400 50  0001 C CNN
+	1    900  10400
+	1    0    0    1   
 $EndComp
 Wire Wire Line
-	3000 10100 3050 10100
+	700  10200 650  10200
 Wire Wire Line
-	3050 10100 3050 10200
+	650  10200 650  10300
 Wire Wire Line
-	3050 10500 3000 10500
+	650  10600 700  10600
 Wire Wire Line
-	3000 10400 3050 10400
-Connection ~ 3050 10400
+	700  10500 650  10500
+Connection ~ 650  10500
 Wire Wire Line
-	3050 10400 3050 10500
+	650  10500 650  10600
 Wire Wire Line
-	3050 10300 3000 10300
-Connection ~ 3050 10300
+	650  10400 700  10400
+Connection ~ 650  10400
 Wire Wire Line
-	3050 10300 3050 10400
+	650  10400 650  10500
 Wire Wire Line
-	3000 10200 3050 10200
-Connection ~ 3050 10200
+	700  10300 650  10300
+Connection ~ 650  10300
 Wire Wire Line
-	3050 10200 3050 10300
+	650  10300 650  10400
 Wire Wire Line
-	3050 10500 3050 10550
-Connection ~ 3050 10500
+	650  10600 650  10650
+Connection ~ 650  10600
 $Comp
 L power:GND #PWR0142
 U 1 1 60151C49
-P 3050 10550
-F 0 "#PWR0142" H 3050 10300 50  0001 C CNN
-F 1 "GND" H 3055 10377 50  0000 C CNN
-F 2 "" H 3050 10550 50  0001 C CNN
-F 3 "" H 3050 10550 50  0001 C CNN
-	1    3050 10550
-	1    0    0    -1  
+P 650 10650
+F 0 "#PWR0142" H 650 10400 50  0001 C CNN
+F 1 "GND" H 655 10477 50  0000 C CNN
+F 2 "" H 650 10650 50  0001 C CNN
+F 3 "" H 650 10650 50  0001 C CNN
+	1    650  10650
+	-1   0    0    -1  
 $EndComp
 Text Notes 1350 9550 0    50   ~ 10
 Buttons
@@ -1785,7 +1783,7 @@ U 1 1 60156B0C
 P 1550 8550
 F 0 "JP1" H 2000 8350 50  0000 C CNN
 F 1 "AD0_jumper" H 1850 8450 50  0000 C CNN
-F 2 "" H 1550 8550 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 1550 8550 50  0001 C CNN
 F 3 "~" H 1550 8550 50  0001 C CNN
 	1    1550 8550
 	-1   0    0    1   
@@ -1832,7 +1830,7 @@ U 1 1 601F077B
 P 1800 6850
 F 0 "C7" H 1600 6900 50  0000 L CNN
 F 1 "1uF" H 1600 6750 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1838 6700 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 1838 6700 50  0001 C CNN
 F 3 "~" H 1800 6850 50  0001 C CNN
 	1    1800 6850
 	1    0    0    -1  
@@ -1843,7 +1841,7 @@ U 1 1 601F1E9A
 P 2800 6850
 F 0 "C8" H 2915 6896 50  0000 L CNN
 F 1 "1uF" H 2850 6750 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2838 6700 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 2838 6700 50  0001 C CNN
 F 3 "~" H 2800 6850 50  0001 C CNN
 	1    2800 6850
 	1    0    0    -1  
@@ -1867,7 +1865,7 @@ U 1 1 602A6855
 P 1450 6650
 F 0 "C6" H 1200 6700 50  0000 L CNN
 F 1 "10uF" H 1150 6600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1488 6500 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 1488 6500 50  0001 C CNN
 F 3 "~" H 1450 6650 50  0001 C CNN
 	1    1450 6650
 	1    0    0    -1  
@@ -1878,7 +1876,7 @@ U 1 1 602A6DF7
 P 3150 6650
 F 0 "C9" H 3265 6696 50  0000 L CNN
 F 1 "10uF" H 3265 6605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3188 6500 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 3188 6500 50  0001 C CNN
 F 3 "~" H 3150 6650 50  0001 C CNN
 	1    3150 6650
 	1    0    0    -1  
@@ -2020,8 +2018,6 @@ Wire Wire Line
 Connection ~ 20400 0   
 Text GLabel 1900 6550 0    50   Input ~ 0
 5V_SHDN
-Text GLabel 6500 2800 2    50   Input ~ 0
-5V_SHDN
 Wire Wire Line
 	6500 2800 6350 2800
 $Comp
@@ -2030,7 +2026,7 @@ U 1 1 5F063A02
 P 8050 1500
 F 0 "JP2" H 8250 1650 50  0000 C CNN
 F 1 "SWD_VCC" H 7950 1650 50  0000 C CNN
-F 2 "" H 8050 1500 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8050 1500 50  0001 C CNN
 F 3 "~" H 8050 1500 50  0001 C CNN
 	1    8050 1500
 	-1   0    0    1   
@@ -2163,7 +2159,7 @@ U 1 1 5F956F72
 P 8700 4550
 F 0 "C22" H 8815 4596 50  0000 L CNN
 F 1 "1uF" H 8700 4450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8738 4400 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 8738 4400 50  0001 C CNN
 F 3 "~" H 8700 4550 50  0001 C CNN
 	1    8700 4550
 	1    0    0    -1  
@@ -2174,7 +2170,7 @@ U 1 1 5F957147
 P 8950 4550
 F 0 "C23" H 9065 4596 50  0000 L CNN
 F 1 "33pF" H 8950 4450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8988 4400 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 8988 4400 50  0001 C CNN
 F 3 "~" H 8950 4550 50  0001 C CNN
 	1    8950 4550
 	1    0    0    -1  
@@ -2185,7 +2181,7 @@ U 1 1 5F9574CB
 P 9200 4550
 F 0 "C24" H 9315 4596 50  0000 L CNN
 F 1 "10pF" H 9200 4450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9238 4400 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 9238 4400 50  0001 C CNN
 F 3 "~" H 9200 4550 50  0001 C CNN
 	1    9200 4550
 	1    0    0    -1  
@@ -2262,7 +2258,7 @@ U 1 1 5FC25B79
 P 7250 4850
 F 0 "C19" H 7365 4896 50  0000 L CNN
 F 1 "10uF" H 7250 4750 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7288 4700 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 7288 4700 50  0001 C CNN
 F 3 "~" H 7250 4850 50  0001 C CNN
 	1    7250 4850
 	1    0    0    -1  
@@ -2273,7 +2269,7 @@ U 1 1 5FC2662C
 P 7550 4850
 F 0 "C20" H 7665 4896 50  0000 L CNN
 F 1 "0.1uF" H 7550 4750 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7588 4700 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 7588 4700 50  0001 C CNN
 F 3 "~" H 7550 4850 50  0001 C CNN
 	1    7550 4850
 	1    0    0    -1  
@@ -2383,7 +2379,7 @@ U 1 1 601A1F40
 P 6250 9300
 F 0 "C17" H 6365 9346 50  0000 L CNN
 F 1 "22pF" H 6365 9255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6288 9150 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 6288 9150 50  0001 C CNN
 F 3 "~" H 6250 9300 50  0001 C CNN
 	1    6250 9300
 	1    0    0    -1  
@@ -2394,7 +2390,7 @@ U 1 1 601527F8
 P 6600 9300
 F 0 "C18" H 6715 9346 50  0000 L CNN
 F 1 "0.1uF" H 6715 9255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6638 9150 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 6638 9150 50  0001 C CNN
 F 3 "~" H 6600 9300 50  0001 C CNN
 	1    6600 9300
 	1    0    0    -1  
@@ -2405,7 +2401,7 @@ U 1 1 601A53EB
 P 5900 9300
 F 0 "C16" H 6015 9346 50  0000 L CNN
 F 1 "22pF" H 6015 9255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5938 9150 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 5938 9150 50  0001 C CNN
 F 3 "~" H 5900 9300 50  0001 C CNN
 	1    5900 9300
 	1    0    0    -1  
@@ -2416,7 +2412,7 @@ U 1 1 601A5846
 P 5600 9300
 F 0 "C15" H 5715 9346 50  0000 L CNN
 F 1 "22pF" H 5715 9255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5638 9150 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 5638 9150 50  0001 C CNN
 F 3 "~" H 5600 9300 50  0001 C CNN
 	1    5600 9300
 	1    0    0    -1  
@@ -2427,7 +2423,7 @@ U 1 1 6028EA69
 P 6500 8550
 F 0 "R12" V 6450 8400 50  0000 C CNN
 F 1 "22R" V 6500 8550 50  0000 C CNN
-F 2 "" V 6430 8550 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 6430 8550 50  0001 C CNN
 F 3 "~" H 6500 8550 50  0001 C CNN
 	1    6500 8550
 	0    1    1    0   
@@ -2438,7 +2434,7 @@ U 1 1 6028EF4F
 P 6500 8850
 F 0 "R13" V 6450 8700 50  0000 C CNN
 F 1 "22R" V 6500 8850 50  0000 C CNN
-F 2 "" V 6430 8850 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 6430 8850 50  0001 C CNN
 F 3 "~" H 6500 8850 50  0001 C CNN
 	1    6500 8850
 	0    1    1    0   
@@ -2449,7 +2445,7 @@ U 1 1 602B4AE2
 P 6500 8950
 F 0 "R14" V 6450 8800 50  0000 C CNN
 F 1 "22R" V 6500 8950 50  0000 C CNN
-F 2 "" V 6430 8950 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 6430 8950 50  0001 C CNN
 F 3 "~" H 6500 8950 50  0001 C CNN
 	1    6500 8950
 	0    1    1    0   
@@ -2622,7 +2618,7 @@ U 1 1 60C4A737
 P 8650 6650
 F 0 "R19" V 8600 6500 50  0000 C CNN
 F 1 "1k" V 8650 6650 50  0000 C CNN
-F 2 "" V 8580 6650 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 8580 6650 50  0001 C CNN
 F 3 "~" H 8650 6650 50  0001 C CNN
 	1    8650 6650
 	0    1    1    0   
@@ -2633,7 +2629,7 @@ U 1 1 60C4A875
 P 8650 7050
 F 0 "R22" V 8600 6900 50  0000 C CNN
 F 1 "1k" V 8650 7050 50  0000 C CNN
-F 2 "" V 8580 7050 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 8580 7050 50  0001 C CNN
 F 3 "~" H 8650 7050 50  0001 C CNN
 	1    8650 7050
 	0    1    1    0   
@@ -2650,7 +2646,6 @@ Wire Wire Line
 	9100 7050 8800 7050
 Wire Wire Line
 	8500 7050 8450 7050
-NoConn ~ 8700 3750
 NoConn ~ 6450 6450
 Text GLabel 6600 6250 2    50   Input ~ 0
 GSM_CTS_UNREG
@@ -2669,7 +2664,7 @@ U 1 1 60EEDBED
 P 8650 6750
 F 0 "R20" V 8600 6600 50  0000 C CNN
 F 1 "1k" V 8650 6750 50  0000 C CNN
-F 2 "" V 8580 6750 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 8580 6750 50  0001 C CNN
 F 3 "~" H 8650 6750 50  0001 C CNN
 	1    8650 6750
 	0    1    1    0   
@@ -2688,7 +2683,7 @@ U 1 1 60F1B003
 P 8650 6850
 F 0 "R21" V 8600 6700 50  0000 C CNN
 F 1 "1k" V 8650 6850 50  0000 C CNN
-F 2 "" V 8580 6850 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 8580 6850 50  0001 C CNN
 F 3 "~" H 8650 6850 50  0001 C CNN
 	1    8650 6850
 	0    1    1    0   
@@ -2705,7 +2700,7 @@ U 1 1 60C4B7FA
 P 8450 7500
 F 0 "R17" H 8350 7350 50  0000 L CNN
 F 1 "5.6k" V 8450 7400 50  0000 L CNN
-F 2 "" V 8380 7500 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 8380 7500 50  0001 C CNN
 F 3 "~" H 8450 7500 50  0001 C CNN
 	1    8450 7500
 	1    0    0    -1  
@@ -2716,7 +2711,7 @@ U 1 1 60F78351
 P 8150 7500
 F 0 "R15" H 8050 7350 50  0000 L CNN
 F 1 "5.6k" V 8150 7400 50  0000 L CNN
-F 2 "" V 8080 7500 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 8080 7500 50  0001 C CNN
 F 3 "~" H 8150 7500 50  0001 C CNN
 	1    8150 7500
 	1    0    0    -1  
@@ -2730,7 +2725,7 @@ U 1 1 610033CB
 P 8650 7150
 F 0 "R23" V 8600 7000 50  0000 C CNN
 F 1 "1k" V 8650 7150 50  0000 C CNN
-F 2 "" V 8580 7150 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 8580 7150 50  0001 C CNN
 F 3 "~" H 8650 7150 50  0001 C CNN
 	1    8650 7150
 	0    1    1    0   
@@ -2765,7 +2760,7 @@ U 1 1 6114E57C
 P 8650 7250
 F 0 "R24" V 8600 7100 50  0000 C CNN
 F 1 "1k" V 8650 7250 50  0000 C CNN
-F 2 "" V 8580 7250 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 8580 7250 50  0001 C CNN
 F 3 "~" H 8650 7250 50  0001 C CNN
 	1    8650 7250
 	0    1    1    0   
@@ -2782,7 +2777,7 @@ U 1 1 61180359
 P 8650 6550
 F 0 "R18" V 8600 6400 50  0000 C CNN
 F 1 "1k" V 8650 6550 50  0000 C CNN
-F 2 "" V 8580 6550 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 8580 6550 50  0001 C CNN
 F 3 "~" H 8650 6550 50  0001 C CNN
 	1    8650 6550
 	0    1    1    0   
@@ -2797,7 +2792,7 @@ U 1 1 611B1147
 P 8300 7500
 F 0 "R16" H 8200 7350 50  0000 L CNN
 F 1 "5.6k" V 8300 7400 50  0000 L CNN
-F 2 "" V 8230 7500 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 8230 7500 50  0001 C CNN
 F 3 "~" H 8300 7500 50  0001 C CNN
 	1    8300 7500
 	1    0    0    -1  
@@ -3090,28 +3085,16 @@ Text GLabel 9400 1250 0    50   Input ~ 0
 SD_CARD_CS
 Wire Wire Line
 	9400 1450 9550 1450
-$Comp
-L Connector:Micro_SD_Card J7
-U 1 1 61D2CAF4
-P 10450 1450
-F 0 "J7" H 10500 1650 50  0000 C CNN
-F 1 "Micro_SD_Card" H 10600 1500 50  0000 C CNN
-F 2 "" H 11600 1750 50  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 10450 1450 50  0001 C CNN
-	1    10450 1450
-	1    0    0    -1  
-$EndComp
-NoConn ~ 9550 1850
 NoConn ~ 9550 1150
 $Comp
 L power:GND #PWR017
 U 1 1 62049070
-P 11250 2050
-F 0 "#PWR017" H 11250 1800 50  0001 C CNN
-F 1 "GND" H 11255 1877 50  0000 C CNN
-F 2 "" H 11250 2050 50  0001 C CNN
-F 3 "" H 11250 2050 50  0001 C CNN
-	1    11250 2050
+P 11000 1700
+F 0 "#PWR017" H 11000 1450 50  0001 C CNN
+F 1 "GND" H 11005 1527 50  0000 C CNN
+F 2 "" H 11000 1700 50  0001 C CNN
+F 3 "" H 11000 1700 50  0001 C CNN
+	1    11000 1700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3321,7 +3304,7 @@ Wire Wire Line
 Wire Wire Line
 	13200 5900 13900 5900
 Wire Notes Line
-	11450 550  11450 2300
+	11700 550  11700 2300
 Wire Notes Line
 	11450 2300 8700 2300
 Wire Notes Line
@@ -3341,16 +3324,114 @@ Must generate clock signal.
 $Comp
 L Graphic:Logo_Open_Hardware_Large #LOGO1
 U 1 1 5EFF33CD
-P 10650 9150
-F 0 "#LOGO1" H 10650 9650 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Large" H 10650 8750 50  0001 C CNN
-F 2 "Symbol:OSHW-Logo2_7.3x6mm_Copper" H 10650 9150 50  0001 C CNN
-F 3 "~" H 10650 9150 50  0001 C CNN
-	1    10650 9150
+P 6400 11600
+F 0 "#LOGO1" H 6400 12100 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 6400 11200 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_Copper" H 6400 11600 50  0001 C CNN
+F 3 "~" H 6400 11600 50  0001 C CNN
+	1    6400 11600
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6450 5050
 NoConn ~ 6450 5150
 NoConn ~ 6450 5250
 NoConn ~ 6450 5350
+Text GLabel 6500 2800 2    50   Input ~ 0
+LCD_DISP
+Text Notes 600  6750 0    50   ~ 0
+PULL LOW
+$Comp
+L SamacSys_Parts:47219-2001 J11
+U 1 1 5F059764
+P 9550 1150
+F 0 "J11" H 10200 1415 50  0000 C CNN
+F 1 "47219-2001" H 10200 1324 50  0000 C CNN
+F 2 "SamacSys_Parts:472192001" H 10700 1250 50  0001 L CNN
+F 3 "http://www.molex.com/molex/products/datasheet.jsp?part=active/0472192001_MEMORY_CARD_SOCKET.xml&channel=Products&Lang=en-US" H 10700 1150 50  0001 L CNN
+F 4 "Molex 47219 Series 8 Way Horizontal Hinged Micro SD Memory Card Connector with Solder Termination" H 10700 1050 50  0001 L CNN "Description"
+F 5 "" H 10700 950 50  0001 L CNN "Height"
+F 6 "538-47219-2001" H 10700 850 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/47219-2001?qs=6kT3pPPHxnVaoXw6Dd7beQ%3D%3D" H 10700 750 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 10700 650 50  0001 L CNN "Manufacturer_Name"
+F 9 "47219-2001" H 10700 550 50  0001 L CNN "Manufacturer_Part_Number"
+	1    9550 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10850 1150 11000 1150
+NoConn ~ 10850 1250
+Wire Wire Line
+	10850 1350 11000 1350
+Wire Wire Line
+	11000 1350 11000 1450
+Wire Wire Line
+	10850 1650 11000 1650
+Connection ~ 11000 1650
+Wire Wire Line
+	11000 1650 11000 1700
+Wire Wire Line
+	10850 1550 11000 1550
+Connection ~ 11000 1550
+Wire Wire Line
+	11000 1550 11000 1650
+Wire Wire Line
+	10850 1450 11000 1450
+Connection ~ 11000 1450
+Wire Wire Line
+	11000 1450 11000 1550
+$Comp
+L Connector:Conn_01x01_Female J5
+U 1 1 5F44E214
+P 1800 10000
+F 0 "J5" H 1828 10026 50  0000 L CNN
+F 1 "Cap_button_1_conn" H 1050 10100 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1800 10000 50  0001 C CNN
+F 3 "~" H 1800 10000 50  0001 C CNN
+	1    1800 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J7
+U 1 1 5F50ABBC
+P 1800 10200
+F 0 "J7" H 1828 10226 50  0000 L CNN
+F 1 "Cap_button_2_conn" H 1050 10300 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1800 10200 50  0001 C CNN
+F 3 "~" H 1800 10200 50  0001 C CNN
+	1    1800 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J8
+U 1 1 5F50C7E4
+P 1800 10400
+F 0 "J8" H 1828 10426 50  0000 L CNN
+F 1 "Cap_button_3_conn" H 1050 10500 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1800 10400 50  0001 C CNN
+F 3 "~" H 1800 10400 50  0001 C CNN
+	1    1800 10400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J9
+U 1 1 5F50CB13
+P 1800 10600
+F 0 "J9" H 1828 10626 50  0000 L CNN
+F 1 "Cap_button_4_conn" H 1050 10700 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1800 10600 50  0001 C CNN
+F 3 "~" H 1800 10600 50  0001 C CNN
+	1    1800 10600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J10
+U 1 1 5F50CD32
+P 1800 10800
+F 0 "J10" H 1828 10826 50  0000 L CNN
+F 1 "Cap_button_5_conn" H 1050 10900 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1800 10800 50  0001 C CNN
+F 3 "~" H 1800 10800 50  0001 C CNN
+	1    1800 10800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
