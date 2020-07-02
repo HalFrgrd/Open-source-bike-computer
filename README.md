@@ -1,7 +1,11 @@
 # Open source-bike-computer
- Designs for an open source bike computer.
+Designs for an open source bike computer.
 
-
+Similar projects:
+- https://github.com/vincent290587/stravaV10
+- http://opencyclingcomputer.eu/
+- https://gitlab.com/PrzemoF/Open-Cycling-Computer
+- https://github.com/hishizuka/pizero_bikecomputer
 
 ## BOM
 
@@ -96,9 +100,15 @@ Vincent's stravaV10 uses Memory LCD LS027B7DH01
 https://makerdyne.com/2015/02/08/large-memory-lcd-breakout-board-details/
 https://makerdyne.files.wordpress.com/2015/12/MemoryLCD_Breakout_Board_Schematic.pdf
 
+The LS027B7DH01 with a backlight by Flex:
+https://www.digikey.com/products/en?mpart=11103-06_T5&v=2004
+
 ### Wireless charging
 This both for convenience and keeping the enclosure waterproof. 
 Quite cheap for a whole setup. The pad inside of the computer can be very slim.
+
+This one is small enough to be away from antennas.
+https://www.mouser.co.uk/ProductDetail/PulseLarsen-Antennas/WMRR124F-2?qs=w%2Fv1CP2dgqrPY4DsgoYlEg%3D%3D
 
 
 ### Contactless payment
@@ -166,3 +176,38 @@ I can't find the B3413 in stock, so I'm using the B3913 in stock at digi key.
 - What about low noise ammplifer LNA?
 
 
+### Case
+**Two pcb design**
+Have a pcb at the top. 
+This has a cut out for the screen.
+This top pcb has capacitive buttons.
+On the underside of this top pcb, are an on off switch and maybe the usb port. Also could have pressure, temperature, humidity sensor as it should be on the outside? The traces are the link between the outside and the inside.
+The 3D printed bottom port of the case could just be unibody.
+There would be pcb to pcb connectors.
+The top pcb would have surface mounted pins on the underside.
+The bottom pcb would have the female connectors.
+When you align the pins, the top pcb drops into the bottom one.
+[These are pin and socket](https://blog.samtec.com/post/custom-connectors-for-stacking-pcbs/)
+There would be o-rings around each of the mounting screws and o-ring cord going around the perimeter.
+
+
+The two PCBs could fit together inside the 100x100mm size.
+
+Could this extend the ground plane?:
+https://blog.antenova.com/how-well-can-an-embedded-antenna-perform-on-a-tiny-pcb
+
+Threaded PCB inserts could provide a flush mounting style.
+
+Connections between plates:
+- Ground
+- VCC
+- Battery switch
+- Data+
+- Data -
+- 5x buttons
+- Temperature, pressure, humidity sensor.
+
+Connectors: https://www.samtec.com/products/ftsh
+
+Pins:FTSH-104-01-F-DV
+Connector: CLP-104-02-F-D

@@ -33,39 +33,39 @@ LiPo charging
 $Comp
 L nrfmicro:HRO-TYPE-C-31-M-12 USB1
 U 1 1 5EF84422
-P 1300 1600
-F 0 "USB1" H 1100 2250 60  0000 C CNN
-F 1 "HRO-TYPE-C-31-M-12" V 750 1600 60  0000 C CNN
-F 2 "nrfmicro:HRO-TYPE-C-31-M-12" H 1300 1600 60  0001 C CNN
-F 3 "" H 1300 1600 60  0001 C CNN
-	1    1300 1600
+P 12250 10600
+F 0 "USB1" H 12050 11250 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-12" V 11700 10600 60  0000 C CNN
+F 2 "nrfmicro:HRO-TYPE-C-31-M-12" H 12250 10600 60  0001 C CNN
+F 3 "" H 12250 10600 60  0001 C CNN
+	1    12250 10600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0101
 U 1 1 5EF84CA0
-P 1550 1050
-F 0 "#PWR0101" H 1550 800 50  0001 C CNN
-F 1 "GND" V 1555 922 50  0000 R CNN
-F 2 "" H 1550 1050 50  0001 C CNN
-F 3 "" H 1550 1050 50  0001 C CNN
-	1    1550 1050
+P 12500 10050
+F 0 "#PWR0101" H 12500 9800 50  0001 C CNN
+F 1 "GND" V 12505 9922 50  0000 R CNN
+F 2 "" H 12500 10050 50  0001 C CNN
+F 3 "" H 12500 10050 50  0001 C CNN
+	1    12500 10050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 5EF850A9
-P 1550 2150
-F 0 "#PWR0102" H 1550 1900 50  0001 C CNN
-F 1 "GND" V 1555 2022 50  0000 R CNN
-F 2 "" H 1550 2150 50  0001 C CNN
-F 3 "" H 1550 2150 50  0001 C CNN
-	1    1550 2150
+P 12500 11150
+F 0 "#PWR0102" H 12500 10900 50  0001 C CNN
+F 1 "GND" V 12505 11022 50  0000 R CNN
+F 2 "" H 12500 11150 50  0001 C CNN
+F 3 "" H 12500 11150 50  0001 C CNN
+	1    12500 11150
 	0    -1   -1   0   
 $EndComp
 Wire Notes Line
-	2250 2450 550  2450
-Text Notes 600  650  0    50   ~ 10
+	13200 11450 11500 11450
+Text Notes 11550 9650 0    50   ~ 10
 USB
 $Comp
 L Battery_Management:MCP73831-2-OT U1
@@ -86,7 +86,7 @@ U 1 1 5EF8A2B1
 P 950 3600
 F 0 "R1" H 1020 3646 50  0000 L CNN
 F 1 "4.7k" H 1020 3555 50  0000 L CNN
-F 2 "" V 880 3600 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 880 3600 50  0001 C CNN
 F 3 "~" H 950 3600 50  0001 C CNN
 	1    950  3600
 	1    0    0    -1  
@@ -240,28 +240,28 @@ F 3 "" H 4850 2800 50  0001 C CNN
 $EndComp
 Text Notes 13300 2250 0    50   ~ 0
 Select which mode for \nVCOM signal. Only one \nresistor is soldered \n(like a jumper).
-Text Notes 600  850  0    50   ~ 0
+Text Notes 11550 9850 0    50   ~ 0
 Device will be upstream facing so\nCC1 and CC2 are pulled down.
 $Comp
 L Device:R R3
 U 1 1 5EFCF628
-P 1700 1350
-F 0 "R3" V 1650 1200 50  0000 C CNN
-F 1 "5.1k" V 1700 1350 50  0000 C CNN
-F 2 "" V 1630 1350 50  0001 C CNN
-F 3 "~" H 1700 1350 50  0001 C CNN
-	1    1700 1350
+P 12650 10350
+F 0 "R3" V 12600 10200 50  0000 C CNN
+F 1 "5.1k" V 12650 10350 50  0000 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 12580 10350 50  0001 C CNN
+F 3 "~" H 12650 10350 50  0001 C CNN
+	1    12650 10350
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R4
 U 1 1 5EFCFB3B
-P 1700 1950
-F 0 "R4" V 1750 2100 50  0000 C CNN
-F 1 "5.1k" V 1700 1950 50  0000 C CNN
-F 2 "" V 1630 1950 50  0001 C CNN
-F 3 "~" H 1700 1950 50  0001 C CNN
-	1    1700 1950
+P 12650 10950
+F 0 "R4" V 12700 11100 50  0000 C CNN
+F 1 "5.1k" V 12650 10950 50  0000 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 12580 10950 50  0001 C CNN
+F 3 "~" H 12650 10950 50  0001 C CNN
+	1    12650 10950
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -270,7 +270,7 @@ U 1 1 5EFD6FFB
 P 13600 2550
 F 0 "R10" V 13393 2550 50  0000 C CNN
 F 1 "10k" V 13484 2550 50  0000 C CNN
-F 2 "" V 13530 2550 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 13530 2550 50  0001 C CNN
 F 3 "~" H 13600 2550 50  0001 C CNN
 	1    13600 2550
 	0    1    1    0   
@@ -281,7 +281,7 @@ U 1 1 5EFD7AD8
 P 14000 2550
 F 0 "R11" V 13793 2550 50  0000 C CNN
 F 1 "10k" V 13884 2550 50  0000 C CNN
-F 2 "" V 13930 2550 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 13930 2550 50  0001 C CNN
 F 3 "~" H 14000 2550 50  0001 C CNN
 	1    14000 2550
 	0    1    1    0   
@@ -329,7 +329,7 @@ U 1 1 5EFEC34E
 P 1000 5450
 F 0 "R2" H 1070 5496 50  0000 L CNN
 F 1 "100k" H 1070 5405 50  0000 L CNN
-F 2 "" V 930 5450 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 930 5450 50  0001 C CNN
 F 3 "~" H 1000 5450 50  0001 C CNN
 	1    1000 5450
 	1    0    0    -1  
@@ -427,7 +427,7 @@ U 1 1 5F006C3F
 P 2100 5400
 F 0 "R5" H 2170 5446 50  0000 L CNN
 F 1 "100k" H 2170 5355 50  0000 L CNN
-F 2 "" V 2030 5400 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 2030 5400 50  0001 C CNN
 F 3 "~" H 2100 5400 50  0001 C CNN
 	1    2100 5400
 	1    0    0    -1  
@@ -456,10 +456,6 @@ Wire Wire Line
 	6350 1100 6500 1100
 Wire Wire Line
 	6350 1300 6500 1300
-Text GLabel 6500 1100 2    50   Input ~ 0
-NFC2
-Text GLabel 6500 1300 2    50   Input ~ 0
-NFC1
 Wire Wire Line
 	3000 3200 3000 3050
 Wire Wire Line
@@ -470,7 +466,7 @@ U 1 1 5F02F317
 P 3250 3200
 F 0 "J2" H 3330 3192 50  0000 L CNN
 F 1 "LiPo_Conn" H 3330 3101 50  0000 L CNN
-F 2 "" H 3250 3200 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 3250 3200 50  0001 C CNN
 F 3 "~" H 3250 3200 50  0001 C CNN
 	1    3250 3200
 	1    0    0    -1  
@@ -728,69 +724,69 @@ Wire Wire Line
 	14450 1450 14450 1550
 Wire Wire Line
 	14300 1550 14450 1550
-NoConn ~ 1400 2250
-NoConn ~ 1400 1850
-NoConn ~ 1400 1250
-Text GLabel 1550 1150 2    50   Input ~ 0
+NoConn ~ 12350 11250
+NoConn ~ 12350 10850
+NoConn ~ 12350 10250
+Text GLabel 12500 10150 2    50   Input ~ 0
 VBUS
-Text GLabel 1550 2050 2    50   Input ~ 0
+Text GLabel 12500 11050 2    50   Input ~ 0
 VBUS
-Text GLabel 1550 1550 2    50   Input ~ 0
+Text GLabel 12500 10550 2    50   Input ~ 0
 USB_D+
-Text GLabel 1550 1450 2    50   Input ~ 0
+Text GLabel 12500 10450 2    50   Input ~ 0
 USB_D-
-Text GLabel 1550 1650 2    50   Input ~ 0
+Text GLabel 12500 10650 2    50   Input ~ 0
 USB_D-
-Text GLabel 1550 1750 2    50   Input ~ 0
+Text GLabel 12500 10750 2    50   Input ~ 0
 USB_D+
 Wire Wire Line
-	1400 1050 1550 1050
+	12350 10050 12500 10050
 Wire Wire Line
-	1550 1150 1400 1150
+	12500 10150 12350 10150
 Wire Wire Line
-	1400 1350 1550 1350
+	12350 10350 12500 10350
 Wire Wire Line
-	1550 1450 1400 1450
+	12500 10450 12350 10450
 Wire Wire Line
-	1400 1550 1550 1550
+	12350 10550 12500 10550
 Wire Wire Line
-	1400 1650 1550 1650
+	12350 10650 12500 10650
 Wire Wire Line
-	1400 1750 1550 1750
+	12350 10750 12500 10750
 Wire Wire Line
-	1400 1950 1550 1950
+	12350 10950 12500 10950
 Wire Wire Line
-	1400 2050 1550 2050
+	12350 11050 12500 11050
 Wire Wire Line
-	1400 2150 1550 2150
+	12350 11150 12500 11150
 $Comp
 L power:GND #PWR0119
 U 1 1 5F15A345
-P 1850 1950
-F 0 "#PWR0119" H 1850 1700 50  0001 C CNN
-F 1 "GND" V 1855 1822 50  0000 R CNN
-F 2 "" H 1850 1950 50  0001 C CNN
-F 3 "" H 1850 1950 50  0001 C CNN
-	1    1850 1950
+P 12800 10950
+F 0 "#PWR0119" H 12800 10700 50  0001 C CNN
+F 1 "GND" V 12805 10822 50  0000 R CNN
+F 2 "" H 12800 10950 50  0001 C CNN
+F 3 "" H 12800 10950 50  0001 C CNN
+	1    12800 10950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0120
 U 1 1 5F15A816
-P 1850 1350
-F 0 "#PWR0120" H 1850 1100 50  0001 C CNN
-F 1 "GND" V 1855 1222 50  0000 R CNN
-F 2 "" H 1850 1350 50  0001 C CNN
-F 3 "" H 1850 1350 50  0001 C CNN
-	1    1850 1350
+P 12800 10350
+F 0 "#PWR0120" H 12800 10100 50  0001 C CNN
+F 1 "GND" V 12805 10222 50  0000 R CNN
+F 2 "" H 12800 10350 50  0001 C CNN
+F 3 "" H 12800 10350 50  0001 C CNN
+	1    12800 10350
 	0    -1   -1   0   
 $EndComp
 Wire Notes Line
-	2250 550  550  550 
+	13200 9550 11500 9550
 Wire Notes Line
-	550  550  550  2450
+	11500 9550 11500 11450
 Wire Notes Line
-	2250 550  2250 2450
+	13200 9550 13200 11450
 Wire Notes Line
 	550  2500 3850 2500
 Wire Notes Line
@@ -805,208 +801,8 @@ Wire Notes Line
 	3850 4100 3850 6050
 Wire Notes Line
 	550  6050 550  4100
-Text GLabel 18500 1300 0    50   Input ~ 0
-GPS_TX
-Text GLabel 18500 1400 0    50   Input ~ 0
-GPS_RX
 Wire Wire Line
-	1800 5050 1800 5200
-Text GLabel 19950 900  2    50   Input ~ 0
-GPS_SCL
-Text GLabel 19950 1200 2    50   Input ~ 0
-GPS_SDA
-Wire Wire Line
-	19800 900  19950 900 
-Wire Wire Line
-	19950 1200 19800 1200
-Wire Wire Line
-	19800 1000 19850 1000
-Wire Wire Line
-	19850 1000 19850 1050
-Wire Wire Line
-	19850 1100 19800 1100
-Wire Wire Line
-	19850 1050 19950 1050
-Connection ~ 19850 1050
-Wire Wire Line
-	19850 1050 19850 1100
-Wire Wire Line
-	19800 500  19850 500 
-Wire Wire Line
-	19850 500  19850 400 
-Wire Wire Line
-	19850 200  19800 200 
-Wire Wire Line
-	19800 300  19850 300 
-Connection ~ 19850 300 
-Wire Wire Line
-	19850 300  19850 200 
-Wire Wire Line
-	19800 400  19850 400 
-Connection ~ 19850 400 
-Wire Wire Line
-	18650 200  18600 200 
-Wire Wire Line
-	18600 200  18600 250 
-Wire Wire Line
-	18600 300  18650 300 
-Wire Wire Line
-	18600 250  18500 250 
-Connection ~ 18600 250 
-Wire Wire Line
-	18600 250  18600 300 
-Wire Wire Line
-	18650 600  18600 600 
-Wire Wire Line
-	18600 600  18600 650 
-Wire Wire Line
-	18600 700  18650 700 
-Wire Wire Line
-	18600 650  18500 650 
-Connection ~ 18600 650 
-Wire Wire Line
-	18600 650  18600 700 
-Wire Wire Line
-	18650 900  18600 900 
-Wire Wire Line
-	18600 900  18600 950 
-Wire Wire Line
-	18600 1000 18650 1000
-Wire Wire Line
-	18600 950  18500 950 
-Connection ~ 18600 950 
-Wire Wire Line
-	18600 950  18600 1000
-Text GLabel 18500 1100 0    50   Input ~ 0
-GPS_RST
-Wire Wire Line
-	18650 1400 18500 1400
-Wire Wire Line
-	18500 1300 18650 1300
-Wire Wire Line
-	18650 1100 18500 1100
-Text GLabel 18500 1600 0    50   Input ~ 0
-GPS_FORCE_ON
-$Comp
-L power:GND #PWR0121
-U 1 1 5F3F5685
-P 19950 250
-F 0 "#PWR0121" H 19950 0   50  0001 C CNN
-F 1 "GND" V 19955 122 50  0000 R CNN
-F 2 "" H 19950 250 50  0001 C CNN
-F 3 "" H 19950 250 50  0001 C CNN
-	1    19950 250 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0122
-U 1 1 5F3F5CB8
-P 19950 1050
-F 0 "#PWR0122" H 19950 800 50  0001 C CNN
-F 1 "GND" V 19955 922 50  0000 R CNN
-F 2 "" H 19950 1050 50  0001 C CNN
-F 3 "" H 19950 1050 50  0001 C CNN
-	1    19950 1050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0123
-U 1 1 5F3F5FCA
-P 19950 1550
-F 0 "#PWR0123" H 19950 1300 50  0001 C CNN
-F 1 "GND" H 19955 1377 50  0000 C CNN
-F 2 "" H 19950 1550 50  0001 C CNN
-F 3 "" H 19950 1550 50  0001 C CNN
-	1    19950 1550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0124
-U 1 1 5F3F632D
-P 18500 1500
-F 0 "#PWR0124" H 18500 1250 50  0001 C CNN
-F 1 "GND" H 18505 1327 50  0000 C CNN
-F 2 "" H 18500 1500 50  0001 C CNN
-F 3 "" H 18500 1500 50  0001 C CNN
-	1    18500 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0125
-U 1 1 5F3F65C0
-P 18500 250
-F 0 "#PWR0125" H 18500 0   50  0001 C CNN
-F 1 "GND" V 18505 122 50  0000 R CNN
-F 2 "" H 18500 250 50  0001 C CNN
-F 3 "" H 18500 250 50  0001 C CNN
-	1    18500 250 
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0126
-U 1 1 5F3F6A57
-P 18500 650
-F 0 "#PWR0126" H 18500 400 50  0001 C CNN
-F 1 "GND" V 18505 522 50  0000 R CNN
-F 2 "" H 18500 650 50  0001 C CNN
-F 3 "" H 18500 650 50  0001 C CNN
-	1    18500 650 
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0127
-U 1 1 5F3F6D3A
-P 18500 950
-F 0 "#PWR0127" H 18500 700 50  0001 C CNN
-F 1 "GND" V 18505 822 50  0000 R CNN
-F 2 "" H 18500 950 50  0001 C CNN
-F 3 "" H 18500 950 50  0001 C CNN
-	1    18500 950 
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	19800 600  19850 600 
-Wire Wire Line
-	19850 700  19800 700 
-Text GLabel 19950 800  2    50   Input ~ 0
-GPS_EXTINT0
-Text GLabel 19950 1300 2    50   Input ~ 0
-GPS_3D_FIX
-NoConn ~ 19800 1400
-Wire Wire Line
-	19950 1300 19800 1300
-Wire Wire Line
-	18500 1500 18650 1500
-Wire Wire Line
-	18650 1600 18500 1600
-Wire Wire Line
-	19950 1550 19800 1550
-Text GLabel 18500 1200 0    50   Input ~ 0
-GPS_GEO_FENCE
-Text GLabel 18450 800  0    50   Input ~ 0
-GPS_JAM_DET
-Wire Wire Line
-	18650 800  18450 800 
-Wire Wire Line
-	18650 1200 18500 1200
-Wire Wire Line
-	19800 800  19950 800 
-Text GLabel 18500 1700 0    50   Input ~ 0
-GPS_PULSE
-Text GLabel 19950 1650 2    50   Input ~ 0
-GPS_ANTON
-Wire Wire Line
-	19800 1650 19950 1650
-Wire Wire Line
-	18500 1700 18650 1700
-Text GLabel 18450 400  0    50   Input ~ 0
-GPS_RF_OUT
-Text GLabel 18450 500  0    50   Input ~ 0
-GPS_RF_IN
-Wire Wire Line
-	18450 500  18650 500 
-Wire Wire Line
-	18650 400  18450 400 
+	1800 5050 1800 5100
 $Comp
 L power:GND #PWR0128
 U 1 1 5F5275A0
@@ -1089,17 +885,6 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Sharp%20PDFs/LS027B7DH01_Rev_Ju
 	1    0    0    -1  
 $EndComp
 $Comp
-L open_bike_comp:L96-M33 U8
-U 1 1 5F5A7B3E
-P 19300 750
-F 0 "U8" H 19400 1450 50  0000 C CNN
-F 1 "L96-M33" H 19000 1450 50  0000 C CNN
-F 2 "" H 19300 750 50  0001 C CNN
-F 3 "" H 19300 750 50  0001 C CNN
-	1    19300 750 
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VCC #PWR0130
 U 1 1 5F5ABF4F
 P 9400 1450
@@ -1163,8 +948,6 @@ Wire Wire Line
 	5000 2800 4850 2800
 Wire Wire Line
 	5000 3000 4850 3000
-Text Notes 17450 -100 0    50   ~ 10
-GPS
 Text Notes 950  7700 0    50   ~ 10
 9-axis sensor
 Wire Notes Line
@@ -1308,8 +1091,8 @@ L Device:R R6
 U 1 1 5F890DFA
 P 2550 4350
 F 0 "R6" V 2450 4400 50  0000 C CNN
-F 1 "800k" V 2450 4250 50  0000 C CNN
-F 2 "" V 2480 4350 50  0001 C CNN
+F 1 "800k" V 2550 4350 50  0000 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 2480 4350 50  0001 C CNN
 F 3 "~" H 2550 4350 50  0001 C CNN
 	1    2550 4350
 	0    -1   -1   0   
@@ -1319,8 +1102,8 @@ L Device:R R7
 U 1 1 5F89290C
 P 3150 4350
 F 0 "R7" V 3050 4400 50  0000 C CNN
-F 1 "2M" V 3050 4300 50  0000 C CNN
-F 2 "" V 3080 4350 50  0001 C CNN
+F 1 "2M" V 3150 4350 50  0000 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 3080 4350 50  0001 C CNN
 F 3 "~" H 3150 4350 50  0001 C CNN
 	1    3150 4350
 	0    -1   -1   0   
@@ -1332,7 +1115,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 4350 2700 4350
 Connection ~ 2850 4350
-Text GLabel 1650 4350 0    50   Input ~ 0
+Text GLabel 1250 4450 0    50   Input ~ 0
 VBATT
 Wire Wire Line
 	3300 4350 3450 4350
@@ -1372,7 +1155,7 @@ Text GLabel 4850 1700 0    50   Input ~ 0
 CAP_BUTTON_2
 Text GLabel 4850 1800 0    50   Input ~ 0
 CAP_BUTTON_3
-Text GLabel 4850 2700 0    50   Input ~ 0
+Text GLabel 4850 6950 0    50   Input ~ 0
 BATT_V_IND
 Text GLabel 4850 1900 0    50   Input ~ 0
 CAP_BUTTON_4
@@ -1385,68 +1168,6 @@ Text GLabel 1750 8150 0    50   Input ~ 0
 9AXIS_SCL
 Text GLabel 6500 1200 2    50   Input ~ 0
 9AXIS_INT
-$Comp
-L power:VCC #PWR0135
-U 1 1 5F990E80
-P 20750 0
-F 0 "#PWR0135" H 20750 -150 50  0001 C CNN
-F 1 "VCC" V 20765 128 50  0000 L CNN
-F 2 "" H 20750 0   50  0001 C CNN
-F 3 "" H 20750 0   50  0001 C CNN
-	1    20750 0   
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C13
-U 1 1 5F990E8A
-P 20400 200
-F 0 "C13" H 20150 250 50  0000 L CNN
-F 1 "0.1uF" H 20100 150 50  0000 L CNN
-F 2 "open_bike_comp:1206_0603_hand_solder" H 20438 50  50  0001 C CNN
-F 3 "~" H 20400 200 50  0001 C CNN
-	1    20400 200 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C14
-U 1 1 5F990E94
-P 20600 200
-F 0 "C14" H 20715 246 50  0000 L CNN
-F 1 "10uF" H 20715 155 50  0000 L CNN
-F 2 "open_bike_comp:1206_0603_hand_solder" H 20638 50  50  0001 C CNN
-F 3 "~" H 20600 200 50  0001 C CNN
-	1    20600 200 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	20400 350  20400 400 
-Wire Wire Line
-	20400 400  20500 400 
-Wire Wire Line
-	20600 400  20600 350 
-$Comp
-L power:GND #PWR0136
-U 1 1 5F990EA1
-P 20500 400
-F 0 "#PWR0136" H 20500 150 50  0001 C CNN
-F 1 "GND" H 20505 227 50  0000 C CNN
-F 2 "" H 20500 400 50  0001 C CNN
-F 3 "" H 20500 400 50  0001 C CNN
-	1    20500 400 
-	1    0    0    -1  
-$EndComp
-Connection ~ 20500 400 
-Wire Wire Line
-	20500 400  20600 400 
-Wire Wire Line
-	20600 50   20600 0   
-Wire Wire Line
-	20400 0    20400 50  
-Wire Wire Line
-	20400 0    20600 0   
-Wire Wire Line
-	20600 0    20750 0   
-Connection ~ 20600 0   
 Wire Notes Line
 	7450 550  7450 1750
 Wire Notes Line
@@ -1455,99 +1176,81 @@ Wire Notes Line
 	7450 1750 8650 1750
 Wire Notes Line
 	3900 550  7400 550 
-Text Notes 17900 2700 0    50   ~ 10
-SIM800L breakout module
-Text Notes 7550 2650 0    50   ~ 0
+Text Notes 13600 10050 0    50   ~ 0
 No humidity for the BMP280 (only BME280).\n
-Text Notes 17900 2950 0    50   ~ 0
-The voltage and high current requirements means powering directly \nfrom battery (>1.2Ah) is best. SIM800L has a battery indicator function.\nDTR is for sleep mode.
-$Comp
-L Device:D D1
-U 1 1 5FB2601F
-P 1300 2950
-F 0 "D1" H 1300 2733 50  0000 C CNN
-F 1 "D" H 1300 2824 50  0000 C CNN
-F 2 "" H 1300 2950 50  0001 C CNN
-F 3 "~" H 1300 2950 50  0001 C CNN
-	1    1300 2950
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	900  2950 1150 2950
 Wire Wire Line
 	1450 2950 1650 2950
-Wire Wire Line
-	1650 2950 2050 2950
-Connection ~ 1650 2950
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5FB5F715
-P 2050 2700
-F 0 "J1" V 2150 2650 50  0000 L CNN
-F 1 "WirelessChargeConn" V 2150 1850 50  0000 L CNN
-F 2 "" H 2050 2700 50  0001 C CNN
-F 3 "~" H 2050 2700 50  0001 C CNN
-	1    2050 2700
-	0    -1   -1   0   
+P 2450 2900
+F 0 "J1" V 2550 2850 50  0000 L CNN
+F 1 "WirelessChargeConn" H 2150 3050 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2450 2900 50  0001 C CNN
+F 3 "~" H 2450 2900 50  0001 C CNN
+	1    2450 2900
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2050 2950 2050 2900
 $Comp
 L power:GND #PWR0137
 U 1 1 5FBAC48B
-P 2150 2900
-F 0 "#PWR0137" H 2150 2650 50  0001 C CNN
-F 1 "GND" H 2155 2727 50  0000 C CNN
-F 2 "" H 2150 2900 50  0001 C CNN
-F 3 "" H 2150 2900 50  0001 C CNN
-	1    2150 2900
-	1    0    0    -1  
+P 2250 3000
+F 0 "#PWR0137" H 2250 2750 50  0001 C CNN
+F 1 "GND" H 2250 2850 50  0000 C CNN
+F 2 "" H 2250 3000 50  0001 C CNN
+F 3 "" H 2250 3000 50  0001 C CNN
+	1    2250 3000
+	0    1    1    0   
 $EndComp
 $Comp
 L open_bike_comp:BMP280 U7
 U 1 1 5FBAF1C3
-P 10450 2400
-F 0 "U7" H 10728 2151 50  0000 L CNN
-F 1 "BMP280" H 10728 2060 50  0000 L CNN
-F 2 "open_bike_comp:BMP280" H 10450 2400 50  0001 C CNN
-F 3 "" H 10450 2400 50  0001 C CNN
-	1    10450 2400
+P 16500 9800
+F 0 "U7" H 16778 9551 50  0000 L CNN
+F 1 "BMP280" H 16778 9460 50  0000 L CNN
+F 2 "open_bike_comp:BMP280" H 16500 9800 50  0001 C CNN
+F 3 "" H 16500 9800 50  0001 C CNN
+	1    16500 9800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0138
 U 1 1 5FBAF95C
-P 10200 2550
-F 0 "#PWR0138" H 10200 2400 50  0001 C CNN
-F 1 "VCC" V 10215 2677 50  0000 L CNN
-F 2 "" H 10200 2550 50  0001 C CNN
-F 3 "" H 10200 2550 50  0001 C CNN
-	1    10200 2550
+P 16250 9950
+F 0 "#PWR0138" H 16250 9800 50  0001 C CNN
+F 1 "VCC" V 16265 10077 50  0000 L CNN
+F 2 "" H 16250 9950 50  0001 C CNN
+F 3 "" H 16250 9950 50  0001 C CNN
+	1    16250 9950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0139
 U 1 1 5FBB0205
-P 10200 2650
-F 0 "#PWR0139" H 10200 2400 50  0001 C CNN
-F 1 "GND" V 10205 2522 50  0000 R CNN
-F 2 "" H 10200 2650 50  0001 C CNN
-F 3 "" H 10200 2650 50  0001 C CNN
-	1    10200 2650
+P 16250 10050
+F 0 "#PWR0139" H 16250 9800 50  0001 C CNN
+F 1 "GND" V 16255 9922 50  0000 R CNN
+F 2 "" H 16250 10050 50  0001 C CNN
+F 3 "" H 16250 10050 50  0001 C CNN
+	1    16250 10050
 	0    1    1    0   
 $EndComp
-Text GLabel 10200 2750 0    50   Input ~ 0
+Text GLabel 16250 10150 0    50   Input ~ 0
 BMP_SCL
-Text GLabel 10200 2850 0    50   Input ~ 0
+Text GLabel 16250 10250 0    50   Input ~ 0
 BMP_SDA
 Wire Wire Line
-	10200 2850 10350 2850
+	16250 10250 16400 10250
 Wire Wire Line
-	10350 2750 10200 2750
+	16400 10150 16250 10150
 Wire Wire Line
-	10200 2650 10350 2650
+	16250 10050 16400 10050
 Wire Wire Line
-	10350 2550 10200 2550
+	16400 9950 16250 9950
 Text GLabel 5300 3700 0    50   Input ~ 0
 BMP_SCL
 Text GLabel 5300 3900 0    50   Input ~ 0
@@ -1602,7 +1305,7 @@ U 1 1 5FCD82A5
 P 5550 3550
 F 0 "R8" H 5700 3500 50  0000 R CNN
 F 1 "0" H 5700 3600 50  0000 R CNN
-F 2 "" V 5480 3550 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 5480 3550 50  0001 C CNN
 F 3 "~" H 5550 3550 50  0001 C CNN
 	1    5550 3550
 	0    -1   -1   0   
@@ -1613,7 +1316,7 @@ U 1 1 5FCD8EDC
 P 5950 3550
 F 0 "R9" H 5900 3500 50  0000 R CNN
 F 1 "0" H 5850 3600 50  0000 R CNN
-F 2 "" V 5880 3550 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 5880 3550 50  0001 C CNN
 F 3 "~" H 5950 3550 50  0001 C CNN
 	1    5950 3550
 	0    -1   -1   0   
@@ -1639,86 +1342,12 @@ Text Notes 4050 3500 0    50   ~ 10
 I2C
 Text Notes 4150 3800 0    50   ~ 0
 nRF52 has built\nin pull up \nresistors.
-$Comp
-L open_bike_comp:SIM800L_module U2
-U 1 1 5FDDDAC3
-P 19250 3150
-F 0 "U2" H 19325 3225 50  0000 C CNN
-F 1 "SIM800L_module" H 19325 3134 50  0000 C CNN
-F 2 "" H 19250 3150 50  0001 C CNN
-F 3 "" H 19250 3150 50  0001 C CNN
-	1    19250 3150
-	1    0    0    -1  
-$EndComp
-Text GLabel 18800 3600 0    50   Input ~ 0
-SIM_RXD
-Text GLabel 18800 3500 0    50   Input ~ 0
-SIM_RST
-Text GLabel 18800 3700 0    50   Input ~ 0
-SIM_TXD
-$Comp
-L power:GND #PWR0141
-U 1 1 5FDDF9A4
-P 18800 3800
-F 0 "#PWR0141" H 18800 3550 50  0001 C CNN
-F 1 "GND" V 18805 3672 50  0000 R CNN
-F 2 "" H 18800 3800 50  0001 C CNN
-F 3 "" H 18800 3800 50  0001 C CNN
-	1    18800 3800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	18950 3500 18800 3500
-Wire Wire Line
-	18800 3600 18950 3600
-Wire Wire Line
-	18950 3700 18800 3700
-Wire Wire Line
-	18800 3800 18950 3800
-Text GLabel 18800 3400 0    50   Input ~ 0
-VBATT
-Wire Wire Line
-	18800 3400 18950 3400
-Text GLabel 19850 3300 2    50   Input ~ 0
-SIM_RING
-Text GLabel 19850 3400 2    50   Input ~ 0
-SIM_DTR
-Text GLabel 19850 3500 2    50   Input ~ 0
-SIM_MIC+
-Text GLabel 19850 3600 2    50   Input ~ 0
-SIM_MIC-
-Wire Wire Line
-	19700 3300 19850 3300
-Wire Wire Line
-	19850 3400 19700 3400
-Wire Wire Line
-	19700 3500 19850 3500
-Wire Wire Line
-	19850 3600 19700 3600
-NoConn ~ 19700 3700
-NoConn ~ 19700 3800
 Wire Wire Line
 	5000 1200 4850 1200
 Wire Wire Line
 	5000 1300 4850 1300
 Wire Notes Line
-	17400 2100 21100 2100
-Wire Notes Line
-	21100 2100 21100 -200
-Wire Notes Line
-	17400 -200 21100 -200
-Wire Notes Line
-	17400 -200 17400 2100
-Wire Notes Line
 	550  6050 3850 6050
-Wire Notes Line
-	21150 2600 17850 2600
-Wire Notes Line
-	17850 2600 17850 4200
-Wire Notes Line
-	17850 4200 21150 4200
-Wire Notes Line
-	21150 4200 21150 2600
 Wire Notes Line
 	850  6200 3850 6200
 Wire Notes Line
@@ -1727,54 +1356,8 @@ Wire Notes Line
 	3850 7350 850  7350
 Wire Notes Line
 	850  7350 850  6200
-Text Notes 7550 2500 0    50   ~ 10
+Text Notes 13600 9900 0    50   ~ 10
 Temperature and pressure sensor breakout
-$Comp
-L Connector:Conn_01x05_Female J3
-U 1 1 600EC6C6
-P 900 10400
-F 0 "J3" H 792 9975 50  0000 C CNN
-F 1 "GND_pads" H 750 10050 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 900 10400 50  0001 C CNN
-F 3 "~" H 900 10400 50  0001 C CNN
-	1    900  10400
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	700  10200 650  10200
-Wire Wire Line
-	650  10200 650  10300
-Wire Wire Line
-	650  10600 700  10600
-Wire Wire Line
-	700  10500 650  10500
-Connection ~ 650  10500
-Wire Wire Line
-	650  10500 650  10600
-Wire Wire Line
-	650  10400 700  10400
-Connection ~ 650  10400
-Wire Wire Line
-	650  10400 650  10500
-Wire Wire Line
-	700  10300 650  10300
-Connection ~ 650  10300
-Wire Wire Line
-	650  10300 650  10400
-Wire Wire Line
-	650  10600 650  10650
-Connection ~ 650  10600
-$Comp
-L power:GND #PWR0142
-U 1 1 60151C49
-P 650 10650
-F 0 "#PWR0142" H 650 10400 50  0001 C CNN
-F 1 "GND" H 655 10477 50  0000 C CNN
-F 2 "" H 650 10650 50  0001 C CNN
-F 3 "" H 650 10650 50  0001 C CNN
-	1    650  10650
-	-1   0    0    -1  
-$EndComp
 Text Notes 1350 9550 0    50   ~ 10
 Buttons
 $Comp
@@ -1783,7 +1366,7 @@ U 1 1 60156B0C
 P 1550 8550
 F 0 "JP1" H 2000 8350 50  0000 C CNN
 F 1 "AD0_jumper" H 1850 8450 50  0000 C CNN
-F 2 "" H 1550 8550 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 1550 8550 50  0001 C CNN
 F 3 "~" H 1550 8550 50  0001 C CNN
 	1    1550 8550
 	-1   0    0    1   
@@ -1821,136 +1404,9 @@ Wire Wire Line
 Wire Wire Line
 	14700 2500 14950 2500
 Wire Notes Line
-	11100 2400 11100 2950
+	17150 9800 17150 10350
 Text Notes 900  6300 0    50   ~ 10
 5V boost
-$Comp
-L Device:C C7
-U 1 1 601F077B
-P 1800 6850
-F 0 "C7" H 1600 6900 50  0000 L CNN
-F 1 "1uF" H 1600 6750 50  0000 L CNN
-F 2 "open_bike_comp:1206_0603_hand_solder" H 1838 6700 50  0001 C CNN
-F 3 "~" H 1800 6850 50  0001 C CNN
-	1    1800 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C8
-U 1 1 601F1E9A
-P 2800 6850
-F 0 "C8" H 2915 6896 50  0000 L CNN
-F 1 "1uF" H 2850 6750 50  0000 L CNN
-F 2 "open_bike_comp:1206_0603_hand_solder" H 2838 6700 50  0001 C CNN
-F 3 "~" H 2800 6850 50  0001 C CNN
-	1    2800 6850
-	1    0    0    -1  
-$EndComp
-Text GLabel 3450 6450 2    50   Input ~ 0
-5V
-$Comp
-L power:VCC #PWR0145
-U 1 1 601EF38A
-P 1200 6450
-F 0 "#PWR0145" H 1200 6300 50  0001 C CNN
-F 1 "VCC" V 1215 6577 50  0000 L CNN
-F 2 "" H 1200 6450 50  0001 C CNN
-F 3 "" H 1200 6450 50  0001 C CNN
-	1    1200 6450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C6
-U 1 1 602A6855
-P 1450 6650
-F 0 "C6" H 1200 6700 50  0000 L CNN
-F 1 "10uF" H 1150 6600 50  0000 L CNN
-F 2 "open_bike_comp:1206_0603_hand_solder" H 1488 6500 50  0001 C CNN
-F 3 "~" H 1450 6650 50  0001 C CNN
-	1    1450 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C9
-U 1 1 602A6DF7
-P 3150 6650
-F 0 "C9" H 3265 6696 50  0000 L CNN
-F 1 "10uF" H 3265 6605 50  0000 L CNN
-F 2 "open_bike_comp:1206_0603_hand_solder" H 3188 6500 50  0001 C CNN
-F 3 "~" H 3150 6650 50  0001 C CNN
-	1    3150 6650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3150 6450 3150 6500
-Wire Wire Line
-	2700 6450 3150 6450
-Wire Wire Line
-	3150 6450 3450 6450
-Connection ~ 3150 6450
-$Comp
-L open_bike_comp:MAX619 U5
-U 1 1 601ED520
-P 2100 6300
-F 0 "U5" H 2500 6250 50  0000 C CNN
-F 1 "MAX619" H 2200 6250 50  0000 C CNN
-F 2 "" H 2100 6300 50  0001 C CNN
-F 3 "" H 2100 6300 50  0001 C CNN
-	1    2100 6300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3150 6800 3150 7050
-Wire Wire Line
-	3150 7250 2300 7250
-Wire Wire Line
-	2300 7250 2300 7200
-Wire Wire Line
-	1200 6450 1450 6450
-Wire Wire Line
-	1450 6450 1450 6500
-Wire Wire Line
-	1450 6450 1900 6450
-Connection ~ 1450 6450
-Wire Wire Line
-	1450 7250 2300 7250
-Wire Wire Line
-	1450 6800 1450 7250
-Connection ~ 2300 7250
-Wire Wire Line
-	1900 6650 1800 6650
-Wire Wire Line
-	1800 6650 1800 6700
-Wire Wire Line
-	1900 7050 1800 7050
-Wire Wire Line
-	1800 7050 1800 7000
-Wire Wire Line
-	2700 7050 2800 7050
-Wire Wire Line
-	2800 7050 2800 7000
-Wire Wire Line
-	2800 6700 2800 6650
-Wire Wire Line
-	2800 6650 2700 6650
-$Comp
-L power:GND #PWR0146
-U 1 1 60395179
-P 3300 7100
-F 0 "#PWR0146" H 3300 6850 50  0001 C CNN
-F 1 "GND" H 3305 6927 50  0000 C CNN
-F 2 "" H 3300 7100 50  0001 C CNN
-F 3 "" H 3300 7100 50  0001 C CNN
-	1    3300 7100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 7100 3300 7050
-Wire Wire Line
-	3300 7050 3150 7050
-Connection ~ 3150 7050
-Wire Wire Line
-	3150 7050 3150 7250
 Text Notes 12600 12300 0    87   ~ 0
 https://github.com/HalFrgrd/Open-source-bike-computer
 Text Notes 13000 12900 0    50   ~ 0
@@ -1998,27 +1454,6 @@ Wire Wire Line
 Wire Wire Line
 	5000 1100 4850 1100
 Wire Wire Line
-	19850 600  19850 650 
-Wire Wire Line
-	19850 300  19850 400 
-Wire Wire Line
-	19850 200  19950 200 
-Wire Wire Line
-	19950 200  19950 250 
-Connection ~ 19850 200 
-Wire Wire Line
-	19850 650  20150 650 
-Wire Wire Line
-	20150 650  20150 0   
-Wire Wire Line
-	20150 0    20400 0   
-Connection ~ 19850 650 
-Wire Wire Line
-	19850 650  19850 700 
-Connection ~ 20400 0   
-Text GLabel 1900 6550 0    50   Input ~ 0
-5V_SHDN
-Wire Wire Line
 	6500 2800 6350 2800
 $Comp
 L Jumper:SolderJumper_3_Open JP2
@@ -2026,7 +1461,7 @@ U 1 1 5F063A02
 P 8050 1500
 F 0 "JP2" H 8250 1650 50  0000 C CNN
 F 1 "SWD_VCC" H 7950 1650 50  0000 C CNN
-F 2 "" H 8050 1500 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8050 1500 50  0001 C CNN
 F 3 "~" H 8050 1500 50  0001 C CNN
 	1    8050 1500
 	-1   0    0    1   
@@ -2048,8 +1483,6 @@ F 3 "" H 8250 1500 50  0001 C CNN
 	1    8250 1500
 	0    1    1    0   
 $EndComp
-Text Notes 1500 6300 0    50   ~ 0
-5V_SHDN should be pulled low for normal operation.
 Text Notes 3950 750  0    50   ~ 0
 LCD and SD card each have their own  SPI bus. Sensors share the I2C bus.
 Wire Wire Line
@@ -2069,8 +1502,7 @@ If the capacitive sensors don't work, the \nground pads will make it easier to t
 Text Notes 950  7850 0    50   ~ 0
 Accelerometer, gyro and\nmagnetometer.
 Text Notes 600  2700 0    50   ~ 0
-Chargeable by either USB or Qi. USB is preffered.
-NoConn ~ 18950 3300
+Chargeable by either USB or Qi. 
 Wire Wire Line
 	5350 3550 5400 3550
 Wire Wire Line
@@ -2101,15 +1533,13 @@ Wire Notes Line
 Wire Notes Line
 	16400 550  12900 550 
 Wire Notes Line
-	7500 2400 7500 2950
+	13550 9800 13550 10350
 Wire Notes Line
-	7500 2400 11100 2400
+	13550 9800 17150 9800
 Wire Notes Line
-	7500 2950 11100 2950
+	13550 10350 17150 10350
 Text Notes 4250 4250 0    50   ~ 10
 SIM868e (SIM + GPS)
-Text GLabel 15500 2650 2    50   Input ~ 0
-POSSIBLY4V
 $Comp
 L power:GND #PWR09
 U 1 1 5F6117D3
@@ -2135,8 +1565,6 @@ F 3 "https://simcom.ee/documents/SIM868E/SIM868_Series_Hardware_Design_V1.07.pdf
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6450 4850
-Text GLabel 7600 4650 2    50   Input ~ 0
-4V
 Text GLabel 4850 4450 0    50   Input ~ 0
 868_PWR
 Text GLabel 4850 5050 0    50   Input ~ 0
@@ -2145,7 +1573,6 @@ Text GLabel 4850 5150 0    50   Input ~ 0
 868_MICN
 NoConn ~ 6450 5850
 NoConn ~ 6450 7550
-NoConn ~ 5000 6950
 NoConn ~ 5000 7850
 Text GLabel 4850 4650 0    50   Input ~ 0
 GPS_RXD_UNREG
@@ -2167,89 +1594,43 @@ $EndComp
 $Comp
 L Device:C C23
 U 1 1 5F957147
-P 8950 4550
-F 0 "C23" H 9065 4596 50  0000 L CNN
-F 1 "33pF" H 8950 4450 50  0000 L CNN
-F 2 "open_bike_comp:1206_0603_hand_solder" H 8988 4400 50  0001 C CNN
-F 3 "~" H 8950 4550 50  0001 C CNN
-	1    8950 4550
+P 9000 4550
+F 0 "C23" H 9115 4596 50  0000 L CNN
+F 1 "33pF" H 9000 4450 50  0000 L CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 9038 4400 50  0001 C CNN
+F 3 "~" H 9000 4550 50  0001 C CNN
+	1    9000 4550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C24
 U 1 1 5F9574CB
-P 9200 4550
-F 0 "C24" H 9315 4596 50  0000 L CNN
-F 1 "10pF" H 9200 4450 50  0000 L CNN
-F 2 "open_bike_comp:1206_0603_hand_solder" H 9238 4400 50  0001 C CNN
-F 3 "~" H 9200 4550 50  0001 C CNN
-	1    9200 4550
+P 9300 4550
+F 0 "C24" H 9415 4596 50  0000 L CNN
+F 1 "10pF" H 9300 4450 50  0000 L CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 9338 4400 50  0001 C CNN
+F 3 "~" H 9300 4550 50  0001 C CNN
+	1    9300 4550
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D_Zener D4
-U 1 1 5F9580A8
-P 9450 4550
-F 0 "D4" V 9404 4630 50  0000 L CNN
-F 1 "5.1V 500mW" V 9495 4630 50  0000 L CNN
-F 2 "" H 9450 4550 50  0001 C CNN
-F 3 "~" H 9450 4550 50  0001 C CNN
-	1    9450 4550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9450 4400 9200 4400
-Wire Wire Line
-	8950 4400 8700 4400
-Wire Wire Line
-	8950 4400 9200 4400
-Connection ~ 8950 4400
-Connection ~ 9200 4400
 Wire Wire Line
 	8700 4400 8700 4300
 Wire Wire Line
 	8700 4300 8450 4300
 Connection ~ 8700 4400
-Wire Wire Line
-	8700 4700 8950 4700
-Connection ~ 8950 4700
-Wire Wire Line
-	8950 4700 9050 4700
-Connection ~ 9200 4700
-Wire Wire Line
-	9200 4700 9450 4700
-Wire Wire Line
-	9050 4700 9050 4800
-Connection ~ 9050 4700
-Wire Wire Line
-	9050 4700 9200 4700
 $Comp
 L power:GND #PWR015
 U 1 1 5FA14DA8
-P 9050 4800
-F 0 "#PWR015" H 9050 4550 50  0001 C CNN
-F 1 "GND" H 9055 4627 50  0000 C CNN
-F 2 "" H 9050 4800 50  0001 C CNN
-F 3 "" H 9050 4800 50  0001 C CNN
-	1    9050 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP C21
-U 1 1 5FA1594C
-P 8450 4550
-F 0 "C21" H 8568 4596 50  0000 L CNN
-F 1 "CP 100uF" H 8300 4450 50  0000 L CNN
-F 2 "" H 8488 4400 50  0001 C CNN
-F 3 "~" H 8450 4550 50  0001 C CNN
-	1    8450 4550
+P 9050 5200
+F 0 "#PWR015" H 9050 4950 50  0001 C CNN
+F 1 "GND" H 9055 5027 50  0000 C CNN
+F 2 "" H 9050 5200 50  0001 C CNN
+F 3 "" H 9050 5200 50  0001 C CNN
+	1    9050 5200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8450 4400 8450 4300
-Wire Wire Line
-	8450 4700 8700 4700
-Connection ~ 8700 4700
 Wire Wire Line
 	6450 4650 7250 4650
 $Comp
@@ -2322,7 +1703,7 @@ F 3 "" H 6600 4450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6450 4450 6600 4450
-Text Notes 6450 4400 0    50   ~ 0
+Text Notes 6000 4300 0    50   ~ 0
 Keeping VRTC powered helps to decrease cold start time.
 $Comp
 L Connector:SIM_Card J6
@@ -2423,7 +1804,7 @@ U 1 1 6028EA69
 P 6500 8550
 F 0 "R12" V 6450 8400 50  0000 C CNN
 F 1 "22R" V 6500 8550 50  0000 C CNN
-F 2 "" V 6430 8550 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 6430 8550 50  0001 C CNN
 F 3 "~" H 6500 8550 50  0001 C CNN
 	1    6500 8550
 	0    1    1    0   
@@ -2434,7 +1815,7 @@ U 1 1 6028EF4F
 P 6500 8850
 F 0 "R13" V 6450 8700 50  0000 C CNN
 F 1 "22R" V 6500 8850 50  0000 C CNN
-F 2 "" V 6430 8850 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 6430 8850 50  0001 C CNN
 F 3 "~" H 6500 8850 50  0001 C CNN
 	1    6500 8850
 	0    1    1    0   
@@ -2445,7 +1826,7 @@ U 1 1 602B4AE2
 P 6500 8950
 F 0 "R14" V 6450 8800 50  0000 C CNN
 F 1 "22R" V 6500 8950 50  0000 C CNN
-F 2 "" V 6430 8950 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 6430 8950 50  0001 C CNN
 F 3 "~" H 6500 8950 50  0001 C CNN
 	1    6500 8950
 	0    1    1    0   
@@ -2618,7 +1999,7 @@ U 1 1 60C4A737
 P 8650 6650
 F 0 "R19" V 8600 6500 50  0000 C CNN
 F 1 "1k" V 8650 6650 50  0000 C CNN
-F 2 "" V 8580 6650 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 8580 6650 50  0001 C CNN
 F 3 "~" H 8650 6650 50  0001 C CNN
 	1    8650 6650
 	0    1    1    0   
@@ -2629,7 +2010,7 @@ U 1 1 60C4A875
 P 8650 7050
 F 0 "R22" V 8600 6900 50  0000 C CNN
 F 1 "1k" V 8650 7050 50  0000 C CNN
-F 2 "" V 8580 7050 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 8580 7050 50  0001 C CNN
 F 3 "~" H 8650 7050 50  0001 C CNN
 	1    8650 7050
 	0    1    1    0   
@@ -2664,7 +2045,7 @@ U 1 1 60EEDBED
 P 8650 6750
 F 0 "R20" V 8600 6600 50  0000 C CNN
 F 1 "1k" V 8650 6750 50  0000 C CNN
-F 2 "" V 8580 6750 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 8580 6750 50  0001 C CNN
 F 3 "~" H 8650 6750 50  0001 C CNN
 	1    8650 6750
 	0    1    1    0   
@@ -2683,7 +2064,7 @@ U 1 1 60F1B003
 P 8650 6850
 F 0 "R21" V 8600 6700 50  0000 C CNN
 F 1 "1k" V 8650 6850 50  0000 C CNN
-F 2 "" V 8580 6850 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 8580 6850 50  0001 C CNN
 F 3 "~" H 8650 6850 50  0001 C CNN
 	1    8650 6850
 	0    1    1    0   
@@ -2700,7 +2081,7 @@ U 1 1 60C4B7FA
 P 8450 7500
 F 0 "R17" H 8350 7350 50  0000 L CNN
 F 1 "5.6k" V 8450 7400 50  0000 L CNN
-F 2 "" V 8380 7500 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 8380 7500 50  0001 C CNN
 F 3 "~" H 8450 7500 50  0001 C CNN
 	1    8450 7500
 	1    0    0    -1  
@@ -2711,7 +2092,7 @@ U 1 1 60F78351
 P 8150 7500
 F 0 "R15" H 8050 7350 50  0000 L CNN
 F 1 "5.6k" V 8150 7400 50  0000 L CNN
-F 2 "" V 8080 7500 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 8080 7500 50  0001 C CNN
 F 3 "~" H 8150 7500 50  0001 C CNN
 	1    8150 7500
 	1    0    0    -1  
@@ -2725,7 +2106,7 @@ U 1 1 610033CB
 P 8650 7150
 F 0 "R23" V 8600 7000 50  0000 C CNN
 F 1 "1k" V 8650 7150 50  0000 C CNN
-F 2 "" V 8580 7150 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 8580 7150 50  0001 C CNN
 F 3 "~" H 8650 7150 50  0001 C CNN
 	1    8650 7150
 	0    1    1    0   
@@ -2760,7 +2141,7 @@ U 1 1 6114E57C
 P 8650 7250
 F 0 "R24" V 8600 7100 50  0000 C CNN
 F 1 "1k" V 8650 7250 50  0000 C CNN
-F 2 "" V 8580 7250 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 8580 7250 50  0001 C CNN
 F 3 "~" H 8650 7250 50  0001 C CNN
 	1    8650 7250
 	0    1    1    0   
@@ -2777,7 +2158,7 @@ U 1 1 61180359
 P 8650 6550
 F 0 "R18" V 8600 6400 50  0000 C CNN
 F 1 "1k" V 8650 6550 50  0000 C CNN
-F 2 "" V 8580 6550 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 8580 6550 50  0001 C CNN
 F 3 "~" H 8650 6550 50  0001 C CNN
 	1    8650 6550
 	0    1    1    0   
@@ -2792,7 +2173,7 @@ U 1 1 611B1147
 P 8300 7500
 F 0 "R16" H 8200 7350 50  0000 L CNN
 F 1 "5.6k" V 8300 7400 50  0000 L CNN
-F 2 "" V 8230 7500 50  0001 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 8230 7500 50  0001 C CNN
 F 3 "~" H 8300 7500 50  0001 C CNN
 	1    8300 7500
 	1    0    0    -1  
@@ -2837,7 +2218,7 @@ Text GLabel 4850 1100 0    50   Input ~ 0
 868_GPS_TXD
 Text GLabel 6500 1400 2    50   Input ~ 0
 868_STATUS
-Text GLabel 6800 1100 2    50   Input ~ 0
+Text GLabel 6500 1100 2    50   Input ~ 0
 868_GPS_EN
 Text GLabel 4850 1200 0    50   Input ~ 0
 868_MICP
@@ -2851,98 +2232,69 @@ Wire Wire Line
 	5000 7950 4850 7950
 Wire Wire Line
 	4850 7750 5000 7750
-Text GLabel 10700 4950 0    50   Input ~ 0
+Text GLabel 13850 5850 0    50   Input ~ 0
 GSM_ANT
 $Comp
 L Device:C C25
 U 1 1 6142F1D6
-P 11350 5150
-F 0 "C25" H 11465 5196 50  0000 L CNN
-F 1 "C" H 11465 5105 50  0000 L CNN
-F 2 "" H 11388 5000 50  0001 C CNN
-F 3 "~" H 11350 5150 50  0001 C CNN
-	1    11350 5150
+P 14500 6050
+F 0 "C25" H 14615 6096 50  0000 L CNN
+F 1 "NA" H 14615 6005 50  0000 L CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 14538 5900 50  0001 C CNN
+F 3 "~" H 14500 6050 50  0001 C CNN
+	1    14500 6050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C26
 U 1 1 6143074D
-P 11950 5150
-F 0 "C26" H 12065 5196 50  0000 L CNN
-F 1 "C" H 12065 5105 50  0000 L CNN
-F 2 "" H 11988 5000 50  0001 C CNN
-F 3 "~" H 11950 5150 50  0001 C CNN
-	1    11950 5150
+P 15100 6050
+F 0 "C26" H 15215 6096 50  0000 L CNN
+F 1 "NA" H 15215 6005 50  0000 L CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 15138 5900 50  0001 C CNN
+F 3 "~" H 15100 6050 50  0001 C CNN
+	1    15100 6050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R25
 U 1 1 61430CD8
-P 11650 4950
-F 0 "R25" V 11443 4950 50  0000 C CNN
-F 1 "0" V 11534 4950 50  0000 C CNN
-F 2 "" V 11580 4950 50  0001 C CNN
-F 3 "~" H 11650 4950 50  0001 C CNN
-	1    11650 4950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_TVS D5
-U 1 1 6143206F
-P 12400 5150
-F 0 "D5" V 12354 5230 50  0000 L CNN
-F 1 "D_TVS" V 12445 5230 50  0000 L CNN
-F 2 "" H 12400 5150 50  0001 C CNN
-F 3 "~" H 12400 5150 50  0001 C CNN
-	1    12400 5150
+P 14800 5850
+F 0 "R25" V 14593 5850 50  0000 C CNN
+F 1 "0" V 14684 5850 50  0000 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 14730 5850 50  0001 C CNN
+F 3 "~" H 14800 5850 50  0001 C CNN
+	1    14800 5850
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	10700 4950 11350 4950
+	13850 5850 14500 5850
 Wire Wire Line
-	11350 5000 11350 4950
-Connection ~ 11350 4950
+	14500 5900 14500 5850
+Connection ~ 14500 5850
 Wire Wire Line
-	11350 4950 11500 4950
+	14500 5850 14650 5850
 Wire Wire Line
-	11800 4950 11950 4950
+	14950 5850 15100 5850
 Wire Wire Line
-	11950 4950 11950 5000
+	15100 5850 15100 5900
 Wire Wire Line
-	11950 4950 12400 4950
+	14500 6200 14500 6250
 Wire Wire Line
-	12400 4950 12400 5000
-Connection ~ 11950 4950
+	14500 6250 14800 6250
 Wire Wire Line
-	12400 4950 12550 4950
-Connection ~ 12400 4950
-Wire Wire Line
-	11350 5300 11350 5350
-Wire Wire Line
-	11350 5350 11950 5350
-Wire Wire Line
-	12400 5350 12400 5300
-Wire Wire Line
-	11950 5300 11950 5350
-Connection ~ 11950 5350
-Wire Wire Line
-	11950 5350 12400 5350
-Wire Wire Line
-	12400 5350 12550 5350
-Connection ~ 12400 5350
+	15100 6200 15100 6250
 $Comp
 L power:GND #PWR019
 U 1 1 615CC791
-P 12550 5350
-F 0 "#PWR019" H 12550 5100 50  0001 C CNN
-F 1 "GND" V 12555 5222 50  0000 R CNN
-F 2 "" H 12550 5350 50  0001 C CNN
-F 3 "" H 12550 5350 50  0001 C CNN
-	1    12550 5350
-	0    -1   -1   0   
+P 14800 6250
+F 0 "#PWR019" H 14800 6000 50  0001 C CNN
+F 1 "GND" V 14805 6122 50  0000 R CNN
+F 2 "" H 14800 6250 50  0001 C CNN
+F 3 "" H 14800 6250 50  0001 C CNN
+	1    14800 6250
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14700 5200 15150 5200
 Wire Wire Line
 	6600 6150 6450 6150
 Wire Wire Line
@@ -2978,109 +2330,101 @@ Logic level shift
 $Comp
 L Mechanical:MountingHole_Pad H6
 U 1 1 618EA7CE
-P 4600 11400
-F 0 "H6" H 4700 11449 50  0000 L CNN
-F 1 "Mnt_Hole" H 4200 11550 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 4600 11400 50  0001 C CNN
-F 3 "~" H 4600 11400 50  0001 C CNN
-	1    4600 11400
+P 4650 10400
+F 0 "H6" H 4750 10449 50  0000 L CNN
+F 1 "Mnt_Hole" H 4250 10550 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 4650 10400 50  0001 C CNN
+F 3 "~" H 4650 10400 50  0001 C CNN
+	1    4650 10400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR01
 U 1 1 618EBC18
-P 4600 11500
-F 0 "#PWR01" H 4600 11250 50  0001 C CNN
-F 1 "GND" H 4605 11327 50  0000 C CNN
-F 2 "" H 4600 11500 50  0001 C CNN
-F 3 "" H 4600 11500 50  0001 C CNN
-	1    4600 11500
+P 4650 10500
+F 0 "#PWR01" H 4650 10250 50  0001 C CNN
+F 1 "GND" H 4655 10327 50  0000 C CNN
+F 2 "" H 4650 10500 50  0001 C CNN
+F 3 "" H 4650 10500 50  0001 C CNN
+	1    4650 10500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H7
 U 1 1 618EC854
-P 4900 11400
-F 0 "H7" H 5000 11449 50  0000 L CNN
-F 1 "Mnt_Hole" H 4800 11600 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 4900 11400 50  0001 C CNN
-F 3 "~" H 4900 11400 50  0001 C CNN
-	1    4900 11400
+P 4950 10400
+F 0 "H7" H 5050 10449 50  0000 L CNN
+F 1 "Mnt_Hole" H 4850 10600 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 4950 10400 50  0001 C CNN
+F 3 "~" H 4950 10400 50  0001 C CNN
+	1    4950 10400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR02
 U 1 1 618EC85E
-P 4900 11500
-F 0 "#PWR02" H 4900 11250 50  0001 C CNN
-F 1 "GND" H 4905 11327 50  0000 C CNN
-F 2 "" H 4900 11500 50  0001 C CNN
-F 3 "" H 4900 11500 50  0001 C CNN
-	1    4900 11500
+P 4950 10500
+F 0 "#PWR02" H 4950 10250 50  0001 C CNN
+F 1 "GND" H 4955 10327 50  0000 C CNN
+F 2 "" H 4950 10500 50  0001 C CNN
+F 3 "" H 4950 10500 50  0001 C CNN
+	1    4950 10500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H8
 U 1 1 61927D0D
-P 5350 11400
-F 0 "H8" H 5450 11449 50  0000 L CNN
-F 1 "Mnt_Hole" H 5250 11600 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 5350 11400 50  0001 C CNN
-F 3 "~" H 5350 11400 50  0001 C CNN
-	1    5350 11400
+P 5400 10400
+F 0 "H8" H 5500 10449 50  0000 L CNN
+F 1 "Mnt_Hole" H 5300 10600 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 5400 10400 50  0001 C CNN
+F 3 "~" H 5400 10400 50  0001 C CNN
+	1    5400 10400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR03
 U 1 1 61927D17
-P 5350 11500
-F 0 "#PWR03" H 5350 11250 50  0001 C CNN
-F 1 "GND" H 5355 11327 50  0000 C CNN
-F 2 "" H 5350 11500 50  0001 C CNN
-F 3 "" H 5350 11500 50  0001 C CNN
-	1    5350 11500
+P 5400 10500
+F 0 "#PWR03" H 5400 10250 50  0001 C CNN
+F 1 "GND" H 5405 10327 50  0000 C CNN
+F 2 "" H 5400 10500 50  0001 C CNN
+F 3 "" H 5400 10500 50  0001 C CNN
+	1    5400 10500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H9
 U 1 1 61927D21
-P 5650 11400
-F 0 "H9" H 5750 11449 50  0000 L CNN
-F 1 "Mnt_Hole" H 5750 11358 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 5650 11400 50  0001 C CNN
-F 3 "~" H 5650 11400 50  0001 C CNN
-	1    5650 11400
+P 5700 10400
+F 0 "H9" H 5800 10449 50  0000 L CNN
+F 1 "Mnt_Hole" H 5800 10358 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 5700 10400 50  0001 C CNN
+F 3 "~" H 5700 10400 50  0001 C CNN
+	1    5700 10400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR05
 U 1 1 61927D2B
-P 5650 11500
-F 0 "#PWR05" H 5650 11250 50  0001 C CNN
-F 1 "GND" H 5655 11327 50  0000 C CNN
-F 2 "" H 5650 11500 50  0001 C CNN
-F 3 "" H 5650 11500 50  0001 C CNN
-	1    5650 11500
+P 5700 10500
+F 0 "#PWR05" H 5700 10250 50  0001 C CNN
+F 1 "GND" H 5705 10327 50  0000 C CNN
+F 2 "" H 5700 10500 50  0001 C CNN
+F 3 "" H 5700 10500 50  0001 C CNN
+	1    5700 10500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9450 4400 9650 4400
-Wire Wire Line
 	9650 4400 9650 4350
-Connection ~ 9450 4400
 Text GLabel 9650 4350 2    50   Input ~ 0
 VBATT
 Text GLabel 6600 7750 2    50   Input ~ 0
 868_RF_SYNC
 Wire Wire Line
 	6600 7750 6450 7750
-Text GLabel 6800 1300 2    50   Input ~ 0
+Text GLabel 6500 1300 2    50   Input ~ 0
 868_RF_SYNC
-NoConn ~ 16250 5000
-NoConn ~ 16250 5100
-NoConn ~ 16250 5200
-NoConn ~ 15150 5100
-NoConn ~ 15150 5000
 Text GLabel 9400 1250 0    50   Input ~ 0
 SD_CARD_CS
 Wire Wire Line
@@ -3098,217 +2442,123 @@ F 3 "" H 11000 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SamacSys_Parts:ANT-LTE-SP610-T ANT1
-U 1 1 6204A02E
-P 12850 4750
-F 0 "ANT1" H 13650 5015 50  0000 C CNN
-F 1 "ANT-LTE-SP610-T" H 13650 4924 50  0000 C CNN
-F 2 "SamacSys_Parts:ANTLTESP610T" H 14300 4850 50  0001 L CNN
-F 3 "https://linxtechnologies.com/wp/wp-content/uploads/ant-lte-sp610-pb.pdf" H 14300 4750 50  0001 L CNN
-F 4 "Antennas LTE multiband 698-960MHz 1710-2200MHz 2300-2700MHz monopole embedded surface-mount chip antenna" H 14300 4650 50  0001 L CNN "Description"
-F 5 "2.8" H 14300 4550 50  0001 L CNN "Height"
-F 6 "712-ANT-LTE-SP610-T" H 14300 4450 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Linx-Technologies/ANT-LTE-SP610-T?qs=XeJtXLiO41QBzk0l0TbQvQ%3D%3D" H 14300 4350 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Linx Technologies" H 14300 4250 50  0001 L CNN "Manufacturer_Name"
-F 9 "ANT-LTE-SP610-T" H 14300 4150 50  0001 L CNN "Manufacturer_Part_Number"
-	1    12850 4750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12550 4750 12850 4750
-Wire Wire Line
-	12550 4750 12550 4950
-Wire Wire Line
-	12850 4850 12850 4950
-$Comp
-L power:GND #PWR020
-U 1 1 620C5F40
-P 12850 4950
-F 0 "#PWR020" H 12850 4700 50  0001 C CNN
-F 1 "GND" H 12855 4777 50  0000 C CNN
-F 2 "" H 12850 4950 50  0001 C CNN
-F 3 "" H 12850 4950 50  0001 C CNN
-	1    12850 4950
-	1    0    0    -1  
-$EndComp
-NoConn ~ 14450 4750
-NoConn ~ 14450 4850
-$Comp
-L SamacSys_Parts:SR4G053 ANT2
-U 1 1 62141315
-P 15150 5000
-F 0 "ANT2" H 15700 5265 50  0000 C CNN
-F 1 "SR4G053" H 15700 5174 50  0000 C CNN
-F 2 "SamacSys_Parts:SR4G053" H 16100 5100 50  0001 L CNN
-F 3 "https://www.antenova.com/wp-content/uploads/2019/05/Raptor-GNSS-SR4G053-PS-1.1.pdf?hsCtaTracking=de113224-8250-4fb6-b9b8-bdd161b40d2c%7Ccbbce4c7-e218-4411-a0f2-e642bfd2b77d" H 16100 5000 50  0001 L CNN
-F 4 "RAPTOR GNSS Antenna" H 16100 4900 50  0001 L CNN "Description"
-F 5 "1.9" H 16100 4800 50  0001 L CNN "Height"
-F 6 "237-SR4G053" H 16100 4700 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Antenova/SR4G053?qs=T3oQrply3y9bPuxaAJLagQ%3D%3D" H 16100 4600 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Antenova" H 16100 4500 50  0001 L CNN "Manufacturer_Name"
-F 9 "SR4G053" H 16100 4400 50  0001 L CNN "Manufacturer_Part_Number"
-	1    15150 5000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6450 5750 6550 5750
-Connection ~ 14500 5900
-Wire Wire Line
-	14900 5900 14900 5800
-Wire Wire Line
-	14500 5900 14900 5900
-$Comp
 L power:GND #PWR021
 U 1 1 61D2B5F5
-P 14950 6300
-F 0 "#PWR021" H 14950 6050 50  0001 C CNN
-F 1 "GND" H 14955 6127 50  0000 C CNN
-F 2 "" H 14950 6300 50  0001 C CNN
-F 3 "" H 14950 6300 50  0001 C CNN
-	1    14950 6300
+P 15800 7600
+F 0 "#PWR021" H 15800 7350 50  0001 C CNN
+F 1 "GND" H 15805 7427 50  0000 C CNN
+F 2 "" H 15800 7600 50  0001 C CNN
+F 3 "" H 15800 7600 50  0001 C CNN
+	1    15800 7600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR016
 U 1 1 61D2B1EE
-P 11200 6150
-F 0 "#PWR016" H 11200 5900 50  0001 C CNN
-F 1 "GND" H 11205 5977 50  0000 C CNN
-F 2 "" H 11200 6150 50  0001 C CNN
-F 3 "" H 11200 6150 50  0001 C CNN
-	1    11200 6150
+P 13350 7450
+F 0 "#PWR016" H 13350 7200 50  0001 C CNN
+F 1 "GND" H 13355 7277 50  0000 C CNN
+F 2 "" H 13350 7450 50  0001 C CNN
+F 3 "" H 13350 7450 50  0001 C CNN
+	1    13350 7450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR018
 U 1 1 61D2A41B
-P 12250 6150
-F 0 "#PWR018" H 12250 5900 50  0001 C CNN
-F 1 "GND" H 12255 5977 50  0000 C CNN
-F 2 "" H 12250 6150 50  0001 C CNN
-F 3 "" H 12250 6150 50  0001 C CNN
-	1    12250 6150
+P 14400 7450
+F 0 "#PWR018" H 14400 7200 50  0001 C CNN
+F 1 "GND" H 14405 7277 50  0000 C CNN
+F 2 "" H 14400 7450 50  0001 C CNN
+F 3 "" H 14400 7450 50  0001 C CNN
+	1    14400 7450
 	1    0    0    -1  
 $EndComp
-Connection ~ 13900 5900
 Wire Wire Line
-	12250 6000 12250 6150
-Connection ~ 12250 6000
+	14400 7300 14400 7450
+Connection ~ 14400 7300
 Wire Wire Line
-	12150 6000 12250 6000
+	14300 7300 14400 7300
 Wire Wire Line
-	12250 5800 12250 6000
+	14400 7100 14400 7300
 Wire Wire Line
-	12150 5800 12250 5800
-Connection ~ 11200 6000
+	14300 7100 14400 7100
+Connection ~ 13350 7300
 Wire Wire Line
-	11200 5800 11200 6000
+	13350 7100 13350 7300
 Wire Wire Line
-	11250 5800 11200 5800
+	13400 7100 13350 7100
 Wire Wire Line
-	11200 6000 11200 6150
+	13350 7300 13350 7450
 Wire Wire Line
-	11250 6000 11200 6000
+	13400 7300 13350 7300
 Wire Wire Line
-	11000 5900 11250 5900
+	13150 7200 13400 7200
 $Comp
 L open_bike_comp:B39162B3913U410 U11
 U 1 1 61BBF33A
-P 12700 5900
-F 0 "U11" H 13700 6237 60  0000 C CNN
-F 1 "B39162B3913U410" H 13700 6131 60  0000 C CNN
-F 2 "open_bike_comp:B39162B3913U410" H 13700 6140 60  0001 C CNN
-F 3 "" H 12700 5900 60  0000 C CNN
-	1    12700 5900
+P 14850 7200
+F 0 "U11" H 15850 7537 60  0000 C CNN
+F 1 "B39162B3913U410" H 15850 7431 60  0000 C CNN
+F 2 "open_bike_comp:B39162B3913U410" H 15850 7440 60  0001 C CNN
+F 3 "" H 14850 7200 60  0000 C CNN
+	1    14850 7200
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	14500 6300 14950 6300
-Connection ~ 14500 6300
+	15350 7600 15800 7600
+Connection ~ 15350 7600
 Wire Wire Line
-	14500 6250 14500 6300
+	15350 7550 15350 7600
 Wire Wire Line
-	13900 6300 14500 6300
+	14750 7600 15350 7600
 Wire Wire Line
-	13900 6250 13900 6300
+	14750 7550 14750 7600
 Wire Wire Line
-	14500 5900 14500 5950
+	15350 7200 15350 7250
 Wire Wire Line
-	14350 5900 14500 5900
+	15200 7200 15350 7200
 Wire Wire Line
-	13900 5900 14050 5900
+	14750 7200 14900 7200
 Wire Wire Line
-	13900 5950 13900 5900
+	14750 7250 14750 7200
 $Comp
 L Device:R R26
 U 1 1 615CE0DE
-P 14200 5900
-F 0 "R26" V 13993 5900 50  0000 C CNN
-F 1 "0" V 14084 5900 50  0000 C CNN
-F 2 "" V 14130 5900 50  0001 C CNN
-F 3 "~" H 14200 5900 50  0001 C CNN
-	1    14200 5900
+P 15050 7200
+F 0 "R26" V 14843 7200 50  0000 C CNN
+F 1 "0" V 14934 7200 50  0000 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 14980 7200 50  0001 C CNN
+F 3 "~" H 15050 7200 50  0001 C CNN
+	1    15050 7200
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C28
 U 1 1 615CE0D4
-P 14500 6100
-F 0 "C28" H 14615 6146 50  0000 L CNN
-F 1 "-" H 14615 6055 50  0000 L CNN
-F 2 "" H 14538 5950 50  0001 C CNN
-F 3 "~" H 14500 6100 50  0001 C CNN
-	1    14500 6100
+P 15350 7400
+F 0 "C28" H 15465 7446 50  0000 L CNN
+F 1 "-" H 15465 7355 50  0000 L CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 15388 7250 50  0001 C CNN
+F 3 "~" H 15350 7400 50  0001 C CNN
+	1    15350 7400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C27
 U 1 1 615CE0CA
-P 13900 6100
-F 0 "C27" H 14015 6146 50  0000 L CNN
-F 1 "-" H 14015 6055 50  0000 L CNN
-F 2 "" H 13938 5950 50  0001 C CNN
-F 3 "~" H 13900 6100 50  0001 C CNN
-	1    13900 6100
+P 14750 7400
+F 0 "C27" H 14865 7446 50  0000 L CNN
+F 1 "-" H 14865 7355 50  0000 L CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 14788 7250 50  0001 C CNN
+F 3 "~" H 14750 7400 50  0001 C CNN
+	1    14750 7400
 	1    0    0    -1  
 $EndComp
-Text GLabel 11000 5900 0    50   Input ~ 0
+Text GLabel 13150 7200 0    50   Input ~ 0
 GPS_ANT
-Text GLabel 8100 5700 3    50   Input ~ 0
-868_GPIO_1
-NoConn ~ 6450 5750
-$Comp
-L RF_Amplifier:SKY65404 U12
-U 1 1 6247378B
-P 13000 5900
-F 0 "U12" H 13150 5500 50  0000 R CNN
-F 1 "SKY65404" H 13000 5500 50  0000 R CNN
-F 2 "RF:Skyworks_SKY65404-31" H 13150 5900 50  0001 C CNN
-F 3 "http://www.skyworksinc.com/uploads/documents/SKY65404_31_201512K.pdf" H 13250 6000 50  0001 C CNN
-	1    13000 5900
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:Antenna AE1
-U 1 1 62473E56
-P 14900 5600
-F 0 "AE1" H 14980 5589 50  0000 L CNN
-F 1 "Molex 204286-0001" H 14980 5498 50  0000 L CNN
-F 2 "" H 14900 5600 50  0001 C CNN
-F 3 "~" H 14900 5600 50  0001 C CNN
-	1    14900 5600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12150 5900 12600 5900
-Wire Wire Line
-	13200 5900 13900 5900
 Wire Notes Line
 	11700 550  11700 2300
-Wire Notes Line
-	11450 2300 8700 2300
-Wire Notes Line
-	8700 550  11450 550 
 Wire Notes Line
 	8700 550  8700 2300
 Text GLabel 13450 2550 0    50   Input ~ 0
@@ -3324,12 +2574,12 @@ Must generate clock signal.
 $Comp
 L Graphic:Logo_Open_Hardware_Large #LOGO1
 U 1 1 5EFF33CD
-P 6400 11600
-F 0 "#LOGO1" H 6400 12100 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Large" H 6400 11200 50  0001 C CNN
-F 2 "Symbol:OSHW-Logo2_7.3x6mm_Copper" H 6400 11600 50  0001 C CNN
-F 3 "~" H 6400 11600 50  0001 C CNN
-	1    6400 11600
+P 6450 10600
+F 0 "#LOGO1" H 6450 11100 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 6450 10200 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_Copper" H 6450 10600 50  0001 C CNN
+F 3 "~" H 6450 10600 50  0001 C CNN
+	1    6450 10600
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6450 5050
@@ -3338,15 +2588,13 @@ NoConn ~ 6450 5250
 NoConn ~ 6450 5350
 Text GLabel 6500 2800 2    50   Input ~ 0
 LCD_DISP
-Text Notes 600  6750 0    50   ~ 0
-PULL LOW
 $Comp
-L SamacSys_Parts:47219-2001 J?
+L SamacSys_Parts:47219-2001 J11
 U 1 1 5F059764
 P 9550 1150
-F 0 "J?" H 10200 1415 50  0000 C CNN
+F 0 "J11" H 10200 1415 50  0000 C CNN
 F 1 "47219-2001" H 10200 1324 50  0000 C CNN
-F 2 "472192001" H 10700 1250 50  0001 L CNN
+F 2 "SamacSys_Parts:472192001" H 10700 1250 50  0001 L CNN
 F 3 "http://www.molex.com/molex/products/datasheet.jsp?part=active/0472192001_MEMORY_CARD_SOCKET.xml&channel=Products&Lang=en-US" H 10700 1150 50  0001 L CNN
 F 4 "Molex 47219 Series 8 Way Horizontal Hinged Micro SD Memory Card Connector with Solder Termination" H 10700 1050 50  0001 L CNN "Description"
 F 5 "" H 10700 950 50  0001 L CNN "Height"
@@ -3380,58 +2628,623 @@ Connection ~ 11000 1450
 Wire Wire Line
 	11000 1450 11000 1550
 $Comp
-L Connector:Conn_01x01_Female J?
+L Connector:Conn_01x01_Female J5
 U 1 1 5F44E214
 P 1800 10000
-F 0 "J?" H 1828 10026 50  0000 L CNN
+F 0 "J5" H 1828 10026 50  0000 L CNN
 F 1 "Cap_button_1_conn" H 1050 10100 50  0000 L CNN
-F 2 "" H 1800 10000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1800 10000 50  0001 C CNN
 F 3 "~" H 1800 10000 50  0001 C CNN
 	1    1800 10000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L Connector:Conn_01x01_Female J7
 U 1 1 5F50ABBC
 P 1800 10200
-F 0 "J?" H 1828 10226 50  0000 L CNN
+F 0 "J7" H 1828 10226 50  0000 L CNN
 F 1 "Cap_button_2_conn" H 1050 10300 50  0000 L CNN
-F 2 "" H 1800 10200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1800 10200 50  0001 C CNN
 F 3 "~" H 1800 10200 50  0001 C CNN
 	1    1800 10200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L Connector:Conn_01x01_Female J8
 U 1 1 5F50C7E4
 P 1800 10400
-F 0 "J?" H 1828 10426 50  0000 L CNN
+F 0 "J8" H 1828 10426 50  0000 L CNN
 F 1 "Cap_button_3_conn" H 1050 10500 50  0000 L CNN
-F 2 "" H 1800 10400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1800 10400 50  0001 C CNN
 F 3 "~" H 1800 10400 50  0001 C CNN
 	1    1800 10400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L Connector:Conn_01x01_Female J9
 U 1 1 5F50CB13
 P 1800 10600
-F 0 "J?" H 1828 10626 50  0000 L CNN
+F 0 "J9" H 1828 10626 50  0000 L CNN
 F 1 "Cap_button_4_conn" H 1050 10700 50  0000 L CNN
-F 2 "" H 1800 10600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1800 10600 50  0001 C CNN
 F 3 "~" H 1800 10600 50  0001 C CNN
 	1    1800 10600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L Connector:Conn_01x01_Female J10
 U 1 1 5F50CD32
 P 1800 10800
-F 0 "J?" H 1828 10826 50  0000 L CNN
+F 0 "J10" H 1828 10826 50  0000 L CNN
 F 1 "Cap_button_5_conn" H 1050 10900 50  0000 L CNN
-F 2 "" H 1800 10800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1800 10800 50  0001 C CNN
 F 3 "~" H 1800 10800 50  0001 C CNN
 	1    1800 10800
 	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	8700 2300 11700 2300
+Wire Notes Line
+	8700 550  11700 550 
+Text Notes 12700 1700 0    50   ~ 0
+Plan for FLEx display
+Text Notes 12750 6700 0    50   ~ 0
+SIM868 has a built in LNA, but it does recommend using a SAW filter.\n
+Wire Wire Line
+	14300 7200 14750 7200
+Connection ~ 14750 7200
+Wire Notes Line
+	12700 6600 16150 6600
+Wire Notes Line
+	16150 6600 16150 7850
+Wire Notes Line
+	16150 7850 12700 7850
+Wire Notes Line
+	12700 7850 12700 6600
+Connection ~ 14800 6250
+Wire Wire Line
+	14800 6250 15100 6250
+Text Notes 13250 5550 0    50   ~ 0
+The reference design doesn't use ESD protection here, seems optional. \nSo I'm not using it either.
+Wire Wire Line
+	8450 4900 8700 4900
+Wire Wire Line
+	8700 4900 8700 4700
+$Comp
+L SamacSys_Parts:MMSZ5231BT1G Z1
+U 1 1 5FAC2F0D
+P 9600 4400
+F 0 "Z1" V 9854 4528 50  0000 L CNN
+F 1 "MMSZ5231BT1G" V 9945 4528 50  0000 L CNN
+F 2 "SamacSys_Parts:SOD3716X135N" H 10000 4550 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MMSZ5221BT1-D.PDF" H 10000 4450 50  0001 L CNN
+F 4 "5.1V Zener diode,MMSZ5231B 500mW ON Semiconductor MMSZ5231BT1G Zener Diode, 5.1V 5% 0.5 W SMT 2-Pin SOD-123" H 10000 4350 50  0001 L CNN "Description"
+F 5 "1.35" H 10000 4250 50  0001 L CNN "Height"
+F 6 "863-MMSZ5231BT1G" H 10000 4150 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/MMSZ5231BT1G?qs=P4IOph%252Bbot%2FUEpHENPMrdw%3D%3D" H 10000 4050 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ON Semiconductor" H 10000 3950 50  0001 L CNN "Manufacturer_Name"
+F 9 "MMSZ5231BT1G" H 10000 3850 50  0001 L CNN "Manufacturer_Part_Number"
+	1    9600 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:TAJC107K006SNJ C9
+U 1 1 5FB06673
+P 8450 4400
+F 0 "C9" V 8850 4200 50  0000 L CNN
+F 1 "TAJC107K006SNJ" V 9050 4050 50  0000 L CNN
+F 2 "SamacSys_Parts:CAPPM6032X280N" H 8800 4450 50  0001 L CNN
+F 3 "http://datasheets.avx.com/TAJ.pdf" H 8800 4350 50  0001 L CNN
+F 4 "Tantalum Capacitors - Solid SMD 6.3volts 100uF 10%" H 8800 4250 50  0001 L CNN "Description"
+F 5 "2.8" H 8800 4150 50  0001 L CNN "Height"
+F 6 "581-TAJC107K006SNJ" H 8800 4050 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/AVX/TAJC107K006SNJ?qs=R9jFzf8qJyw74zhPyWlAvg%3D%3D" H 8800 3950 50  0001 L CNN "Mouser Price/Stock"
+F 8 "AVX" H 8800 3850 50  0001 L CNN "Manufacturer_Name"
+F 9 "TAJC107K006SNJ" H 8800 3750 50  0001 L CNN "Manufacturer_Part_Number"
+	1    8450 4400
+	0    1    1    0   
+$EndComp
+Connection ~ 9000 4400
+Wire Wire Line
+	8700 4400 9000 4400
+Connection ~ 9300 4400
+Wire Wire Line
+	9300 4400 9600 4400
+Wire Wire Line
+	9000 4400 9300 4400
+Connection ~ 9600 4400
+Wire Wire Line
+	9600 4400 9650 4400
+Wire Wire Line
+	8700 4900 9000 4900
+Wire Wire Line
+	9350 4900 9350 5000
+Wire Wire Line
+	9350 5000 9600 5000
+Connection ~ 8700 4900
+Wire Wire Line
+	9050 4900 9050 5200
+Connection ~ 9050 4900
+Wire Wire Line
+	9050 4900 9300 4900
+Wire Wire Line
+	9000 4700 9000 4900
+Connection ~ 9000 4900
+Wire Wire Line
+	9000 4900 9050 4900
+Wire Wire Line
+	9300 4700 9300 4900
+Connection ~ 9300 4900
+Wire Wire Line
+	9300 4900 9350 4900
+Wire Notes Line
+	13250 5350 16150 5350
+Wire Notes Line
+	13250 6550 13250 5350
+Wire Notes Line
+	16150 5350 16150 6550
+Wire Notes Line
+	13250 6550 16150 6550
+Wire Notes Line
+	4950 8300 9150 8300
+Wire Notes Line
+	9150 8300 9150 9700
+Wire Notes Line
+	9150 9700 4950 9700
+Wire Notes Line
+	4950 9700 4950 8300
+Wire Notes Line
+	2500 9000 900  9000
+Wire Notes Line
+	900  9000 900  7600
+Wire Notes Line
+	900  7600 2500 7600
+Wire Notes Line
+	2500 7600 2500 9000
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5FE93AAB
+P 3350 9950
+F 0 "SW2" H 3350 10235 50  0000 C CNN
+F 1 "SW_Push" H 3350 10144 50  0000 C CNN
+F 2 "" H 3350 10150 50  0001 C CNN
+F 3 "~" H 3350 10150 50  0001 C CNN
+	1    3350 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5FE94272
+P 3350 10200
+F 0 "SW3" H 3350 10485 50  0000 C CNN
+F 1 "SW_Push" H 3350 10394 50  0000 C CNN
+F 2 "" H 3350 10400 50  0001 C CNN
+F 3 "~" H 3350 10400 50  0001 C CNN
+	1    3350 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5FE94659
+P 3350 10450
+F 0 "SW4" H 3350 10735 50  0000 C CNN
+F 1 "SW_Push" H 3350 10644 50  0000 C CNN
+F 2 "" H 3350 10650 50  0001 C CNN
+F 3 "~" H 3350 10650 50  0001 C CNN
+	1    3350 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5FE94A19
+P 3350 10700
+F 0 "SW5" H 3350 10985 50  0000 C CNN
+F 1 "SW_Push" H 3350 10894 50  0000 C CNN
+F 2 "" H 3350 10900 50  0001 C CNN
+F 3 "~" H 3350 10900 50  0001 C CNN
+	1    3350 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5FE94C1F
+P 3350 10900
+F 0 "SW6" H 3350 11185 50  0000 C CNN
+F 1 "SW_Push" H 3350 11094 50  0000 C CNN
+F 2 "" H 3350 11100 50  0001 C CNN
+F 3 "~" H 3350 11100 50  0001 C CNN
+	1    3350 10900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0106
+U 1 1 5FE983AE
+P 7600 4650
+F 0 "#PWR0106" H 7600 4500 50  0001 C CNN
+F 1 "VCC" V 7615 4778 50  0000 L CNN
+F 2 "" H 7600 4650 50  0001 C CNN
+F 3 "" H 7600 4650 50  0001 C CNN
+	1    7600 4650
+	0    1    1    0   
+$EndComp
+Text Notes 6700 4700 0    50   ~ 0
+2.9V to 4.4V
+$Comp
+L SamacSys_Parts:REG71050DDCR IC1
+U 1 1 5FE9AE91
+P 3000 6600
+F 0 "IC1" H 3700 6865 50  0000 C CNN
+F 1 "REG71050DDCR" H 3700 6774 50  0000 C CNN
+F 2 "SamacSys_Parts:SOT95P280X110-6N" H 4250 6700 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/REG71050" H 4250 6600 50  0001 L CNN
+F 4 "60-mA, 5.0-V, Buck/Boost Charge Pump in ThinSOT-23" H 4250 6500 50  0001 L CNN "Description"
+F 5 "1.1" H 4250 6400 50  0001 L CNN "Height"
+F 6 "595-REG71050DDCR" H 4250 6300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/REG71050DDCR?qs=sSOk4GDDv7w%2FF3O8izAevQ%3D%3D" H 4250 6200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 4250 6100 50  0001 L CNN "Manufacturer_Name"
+F 9 "REG71050DDCR" H 4250 6000 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3000 6600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5FF93DDF
+P 1400 6950
+F 0 "C7" H 1450 7050 50  0000 L CNN
+F 1 "0.1uF" H 1300 6850 50  0000 L CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 1438 6800 50  0001 C CNN
+F 3 "~" H 1400 6950 50  0001 C CNN
+	1    1400 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 6600 1400 6600
+Wire Wire Line
+	1400 6600 1400 6800
+Wire Wire Line
+	1600 6800 1600 7100
+Wire Wire Line
+	1600 7100 1400 7100
+Wire Wire Line
+	1150 6700 1600 6700
+Wire Wire Line
+	3000 6600 3100 6600
+Text GLabel 3400 6600 2    50   Input ~ 0
+5V
+Wire Wire Line
+	3000 6700 3400 6700
+$Comp
+L power:GND #PWR0121
+U 1 1 60074165
+P 3450 7250
+F 0 "#PWR0121" H 3450 7000 50  0001 C CNN
+F 1 "GND" H 3455 7077 50  0000 C CNN
+F 2 "" H 3450 7250 50  0001 C CNN
+F 3 "" H 3450 7250 50  0001 C CNN
+	1    3450 7250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 60074360
+P 3100 7050
+F 0 "C8" H 2900 7100 50  0000 L CNN
+F 1 "10uF" H 2850 7000 50  0000 L CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 3138 6900 50  0001 C CNN
+F 3 "~" H 3100 7050 50  0001 C CNN
+	1    3100 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 6600 3100 6900
+Connection ~ 3100 6600
+Wire Wire Line
+	3100 6600 3400 6600
+Wire Wire Line
+	3100 7200 3100 7250
+Wire Wire Line
+	3100 7250 3400 7250
+Wire Wire Line
+	3400 6700 3400 7250
+Connection ~ 3400 7250
+Wire Wire Line
+	3400 7250 3450 7250
+$Comp
+L Device:C C6
+U 1 1 6010C1DA
+P 1150 7000
+F 0 "C6" H 950 7050 50  0000 L CNN
+F 1 "1uF" H 900 6950 50  0000 L CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" H 1188 6850 50  0001 C CNN
+F 3 "~" H 1150 7000 50  0001 C CNN
+	1    1150 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 6700 1150 6850
+Wire Wire Line
+	1150 7150 1150 7250
+Wire Wire Line
+	1150 7250 3100 7250
+Connection ~ 3100 7250
+Wire Wire Line
+	3000 6800 3050 6800
+$Comp
+L power:VCC #PWR0122
+U 1 1 60181E72
+P 3600 6350
+F 0 "#PWR0122" H 3600 6200 50  0001 C CNN
+F 1 "VCC" H 3615 6523 50  0000 C CNN
+F 2 "" H 3600 6350 50  0001 C CNN
+F 3 "" H 3600 6350 50  0001 C CNN
+	1    3600 6350
+	0    1    1    0   
+$EndComp
+Text Notes 7850 5450 0    50   ~ 0
+RECHECK POWER SUPPLY
+$Comp
+L Switch:SW_DPDT_x2 SW1
+U 1 1 601DB8AA
+P 1450 4450
+F 0 "SW1" H 1450 4735 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 1450 4644 50  0000 C CNN
+F 2 "" H 1450 4450 50  0001 C CNN
+F 3 "~" H 1450 4450 50  0001 C CNN
+	1    1450 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R27
+U 1 1 60206D8B
+P 3450 6350
+F 0 "R27" V 3350 6350 50  0000 C CNN
+F 1 "100k" V 3450 6350 50  0000 C CNN
+F 2 "open_bike_comp:1206_0603_hand_solder" V 3380 6350 50  0001 C CNN
+F 3 "~" H 3450 6350 50  0001 C CNN
+	1    3450 6350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3050 6800 3050 6350
+Wire Wire Line
+	3050 6350 3300 6350
+$Comp
+L SamacSys_Parts:W3010 ANT1
+U 1 1 6028B29C
+P 15500 6900
+F 0 "ANT1" H 15728 6946 50  0000 L CNN
+F 1 "W3010" H 15728 6855 50  0000 L CNN
+F 2 "SamacSys_Parts:ANTC10032X400N" H 16250 7000 50  0001 L CNN
+F 3 "https://www.pulseelectronics.com/docs/library/W3010.pdf" H 16250 6900 50  0001 L CNN
+F 4 "Pulse SMT Antenna W3010, 1575.42 MHz" H 16250 6800 50  0001 L CNN "Description"
+F 5 "4" H 16250 6700 50  0001 L CNN "Height"
+F 6 "673-W3010" H 16250 6600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/PulseLarsen-Antennas/W3010?qs=zks35mai6wNg7ENA8KnmdA%3D%3D" H 16250 6500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Pulse" H 16250 6400 50  0001 L CNN "Manufacturer_Name"
+F 9 "W3010" H 16250 6300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    15500 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15350 7200 15400 7200
+Wire Wire Line
+	15400 7200 15400 6900
+Wire Wire Line
+	15400 6900 15500 6900
+Connection ~ 15350 7200
+Wire Wire Line
+	15100 5850 15400 5850
+Wire Wire Line
+	15400 5850 15400 5600
+Wire Wire Line
+	15400 5600 15550 5600
+Connection ~ 15100 5850
+$Comp
+L SamacSys_Parts:W3073 ANT2
+U 1 1 602EB9C0
+P 15550 5600
+F 0 "ANT2" H 16278 5596 50  0000 L CNN
+F 1 "W3073" H 16278 5505 50  0000 L CNN
+F 2 "SamacSys_Parts:ANTC10032X410N" H 16300 5700 50  0001 L CNN
+F 3 "" H 16300 5600 50  0001 L CNN
+F 4 "Antennas Quad Band Antenna Ceramic 3G/GSM" H 16300 5500 50  0001 L CNN "Description"
+F 5 "4.1" H 16300 5400 50  0001 L CNN "Height"
+F 6 "673-W3073" H 16300 5300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/PulseLarsen-Antennas/W3073?qs=opBjA1TV901jiGPqzhsErg%3D%3D" H 16300 5200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Pulse" H 16300 5100 50  0001 L CNN "Manufacturer_Name"
+F 9 "W3073" H 16300 5000 50  0001 L CNN "Manufacturer_Part_Number"
+	1    15550 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 6950 5000 6950
+Wire Wire Line
+	2000 2950 2050 2950
+Wire Wire Line
+	1700 2950 1650 2950
+Connection ~ 1650 2950
+Text GLabel 1900 5100 2    50   Input ~ 0
+VIN
+Wire Wire Line
+	1900 5100 1800 5100
+Connection ~ 1800 5100
+Wire Wire Line
+	1800 5100 1800 5200
+Text GLabel 1050 6700 0    50   Input ~ 0
+VIN
+Wire Wire Line
+	1050 6700 1150 6700
+Connection ~ 1150 6700
+$Comp
+L Device:D_Schottky D1
+U 1 1 603EDAE2
+P 1300 2950
+F 0 "D1" H 1300 2733 50  0000 C CNN
+F 1 "1N5819" H 1300 2824 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 1300 2950 50  0001 C CNN
+F 3 "~" H 1300 2950 50  0001 C CNN
+	1    1300 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Schottky D4
+U 1 1 603EF655
+P 1850 2950
+F 0 "D4" H 1850 3167 50  0000 C CNN
+F 1 "1N5819" H 1850 3076 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 1850 2950 50  0001 C CNN
+F 3 "~" H 1850 2950 50  0001 C CNN
+	1    1850 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 2900 2250 2900
+Text GLabel 6600 5750 2    50   Input ~ 0
+CHARG_STAT
+Wire Wire Line
+	6600 5750 6450 5750
+$Comp
+L open_bike_comp:SAMTEC-FTSH-104-01-X-DV J?
+U 1 1 60489D38
+P 1500 12400
+F 0 "J?" H 1900 12250 50  0000 C CNN
+F 1 "SAMTEC-FTSH-104-01-X-DV" H 1900 12550 50  0000 C CNN
+F 2 "SAMTEC-FTSH-104-01-X-DV" H 1500 12400 50  0001 L BNN
+F 3 "" H 1500 12400 50  0001 C CNN
+	1    1500 12400
+	1    0    0    -1  
+$EndComp
+Text Notes 2200 11250 0    50   ~ 10
+Connectors between the two PCBs
+Text Notes 1600 11400 0    50   ~ 0
+Top connectors
+$Comp
+L open_bike_comp:SAMTEC-CLP-104-02-X-D J?
+U 1 1 6045AC2D
+P 1500 11650
+F 0 "J?" H 1900 11500 50  0000 C CNN
+F 1 "SAMTEC-CLP-104-02-X-D" H 1950 11800 50  0000 C CNN
+F 2 "SAMTEC-CLP-104-02-X-D" H 1500 11650 50  0001 L BNN
+F 3 "" H 1500 11650 50  0001 C CNN
+	1    1500 11650
+	1    0    0    -1  
+$EndComp
+$Comp
+L open_bike_comp:SAMTEC-FTSH-104-01-X-DV J?
+U 1 1 60541ACC
+P 4100 12400
+F 0 "J?" H 4500 12250 50  0000 C CNN
+F 1 "SAMTEC-FTSH-104-01-X-DV" H 4500 12550 50  0000 C CNN
+F 2 "SAMTEC-FTSH-104-01-X-DV" H 4100 12400 50  0001 L BNN
+F 3 "" H 4100 12400 50  0001 C CNN
+	1    4100 12400
+	1    0    0    -1  
+$EndComp
+Text Notes 4200 11400 0    50   ~ 0
+Bottom connectors
+$Comp
+L open_bike_comp:SAMTEC-CLP-104-02-X-D J?
+U 1 1 60541AD7
+P 4100 11650
+F 0 "J?" H 4500 11500 50  0000 C CNN
+F 1 "SAMTEC-CLP-104-02-X-D" H 4550 11800 50  0000 C CNN
+F 2 "SAMTEC-CLP-104-02-X-D" H 4100 11650 50  0001 L BNN
+F 3 "" H 4100 11650 50  0001 C CNN
+	1    4100 11650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6056E5F1
+P 1300 11650
+F 0 "#PWR?" H 1300 11400 50  0001 C CNN
+F 1 "GND" V 1305 11522 50  0000 R CNN
+F 2 "" H 1300 11650 50  0001 C CNN
+F 3 "" H 1300 11650 50  0001 C CNN
+	1    1300 11650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 6056F634
+P 2500 11650
+F 0 "#PWR?" H 2500 11500 50  0001 C CNN
+F 1 "VCC" V 2515 11778 50  0000 L CNN
+F 2 "" H 2500 11650 50  0001 C CNN
+F 3 "" H 2500 11650 50  0001 C CNN
+	1    2500 11650
+	0    1    1    0   
+$EndComp
+Text GLabel 2500 11750 2    50   Input ~ 0
+VBATT
+Text GLabel 1300 11750 0    50   Input ~ 0
+VBATT
+$Comp
+L power:GND #PWR?
+U 1 1 605720F8
+P 1300 12400
+F 0 "#PWR?" H 1300 12150 50  0001 C CNN
+F 1 "GND" V 1305 12272 50  0000 R CNN
+F 2 "" H 1300 12400 50  0001 C CNN
+F 3 "" H 1300 12400 50  0001 C CNN
+	1    1300 12400
+	0    1    1    0   
+$EndComp
+Text GLabel 1300 12500 0    50   Input ~ 0
+VBATT
+$Comp
+L power:VCC #PWR?
+U 1 1 6059D987
+P 2500 12400
+F 0 "#PWR?" H 2500 12250 50  0001 C CNN
+F 1 "VCC" V 2515 12528 50  0000 L CNN
+F 2 "" H 2500 12400 50  0001 C CNN
+F 3 "" H 2500 12400 50  0001 C CNN
+	1    2500 12400
+	0    1    1    0   
+$EndComp
+Text GLabel 2500 12500 2    50   Input ~ 0
+VBATT
+Text GLabel 3900 11650 0    50   Input ~ 0
+CAP_BUTTON_1
+Text GLabel 3900 11750 0    50   Input ~ 0
+CAP_BUTTON_2
+Text GLabel 3900 11850 0    50   Input ~ 0
+CAP_BUTTON_3
+Text GLabel 3900 11950 0    50   Input ~ 0
+CAP_BUTTON_4
+Text GLabel 5100 11650 2    50   Input ~ 0
+CAP_BUTTON_5
+$Comp
+L power:GND #PWR?
+U 1 1 60621B59
+P 5100 11750
+F 0 "#PWR?" H 5100 11500 50  0001 C CNN
+F 1 "GND" V 5105 11622 50  0000 R CNN
+F 2 "" H 5100 11750 50  0001 C CNN
+F 3 "" H 5100 11750 50  0001 C CNN
+	1    5100 11750
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3900 12400 0    50   Input ~ 0
+CAP_BUTTON_1
+Text GLabel 3900 12500 0    50   Input ~ 0
+CAP_BUTTON_2
+Text GLabel 3900 12600 0    50   Input ~ 0
+CAP_BUTTON_3
+Text GLabel 3900 12700 0    50   Input ~ 0
+CAP_BUTTON_4
+Text GLabel 5100 12400 2    50   Input ~ 0
+CAP_BUTTON_5
+$Comp
+L power:GND #PWR?
+U 1 1 6064D56F
+P 5100 12500
+F 0 "#PWR?" H 5100 12250 50  0001 C CNN
+F 1 "GND" V 5105 12372 50  0000 R CNN
+F 2 "" H 5100 12500 50  0001 C CNN
+F 3 "" H 5100 12500 50  0001 C CNN
+	1    5100 12500
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

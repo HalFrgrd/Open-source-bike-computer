@@ -1,4 +1,4 @@
-18677809854161169
+18692152268564656
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75467,6 +75467,27 @@ Connector
 12
 12
 SamacSys_Parts
+ANTC10032X200N
+W3070 ACI
+Antenna
+0
+2
+2
+SamacSys_Parts
+ANTC10032X400N
+W3013
+Antenna
+0
+2
+2
+SamacSys_Parts
+ANTC10032X410N
+W3073
+Antenna
+0
+2
+2
+SamacSys_Parts
 ANTLTESP610T
 ANT-LTE-SP610-T-1
 Antenna
@@ -75474,12 +75495,40 @@ Antenna
 4
 4
 SamacSys_Parts
+CAPPM6032X280N
+CASE C
+Capacitor Polarised
+0
+2
+2
+SamacSys_Parts
+DIONC0603X33N
+LXES03AAA1-134
+TVS Diode (Bi-directional)
+0
+2
+2
+SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)
 Integrated Circuit
 0
 8
 8
+SamacSys_Parts
+SOD3716X135N
+SOD-123 CASE425-04 ISSUE G
+Zener Diode
+0
+2
+2
+SamacSys_Parts
+SOT95P280X110-6N
+DDC
+Integrated Circuit
+0
+6
+6
 SamacSys_Parts
 SOT95P280X145-6N
 SOT23-6(ESDA6V1-5SC6Y)
@@ -82256,6 +82305,20 @@ GY-9250
 0
 10
 10
+open_bike_comp
+SAMTEC-CLP-104-02-X-D
+translated Allegro footprint
+
+0
+8
+8
+open_bike_comp
+SAMTEC-FTSH-104-01-X-DV
+translated Allegro footprint
+
+0
+8
+8
 open_bike_comp
 touch_pad_1
 
