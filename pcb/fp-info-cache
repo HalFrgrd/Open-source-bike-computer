@@ -1,4 +1,4 @@
-18692152268564656
+18708093508354009
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75502,6 +75502,13 @@ Capacitor Polarised
 2
 2
 SamacSys_Parts
+CONUFL001-SMD
+CONUFL001-SMD
+Antenna
+0
+3
+3
+SamacSys_Parts
 DIONC0603X33N
 LXES03AAA1-134
 TVS Diode (Bi-directional)
@@ -75516,12 +75523,33 @@ Integrated Circuit
 8
 8
 SamacSys_Parts
+QFN40P300X300X105-25N-D
+16 Lead LGA (3x3x0.75)
+Integrated Circuit
+0
+25
+25
+SamacSys_Parts
+R303001602
+R30-3001602
+Hardware
+0
+1
+1
+SamacSys_Parts
 SOD3716X135N
 SOD-123 CASE425-04 ISSUE G
 Zener Diode
 0
 2
 2
+SamacSys_Parts
+SOT95P280X100-5N
+UJ-5 (TSOT)
+Integrated Circuit
+0
+5
+5
 SamacSys_Parts
 SOT95P280X110-6N
 DDC
@@ -75533,6 +75561,13 @@ SamacSys_Parts
 SOT95P280X145-6N
 SOT23-6(ESDA6V1-5SC6Y)
 TVS Diode (Uni-directional)
+0
+6
+6
+SamacSys_Parts
+SR4G008
+SR4G008
+Antenna
 0
 6
 6
@@ -82278,6 +82313,13 @@ usb_type_c
 20
 17
 open_bike_comp
+10_smd_connector
+
+
+0
+10
+10
+open_bike_comp
 1206_0603_hand_solder
 
 
@@ -82292,6 +82334,13 @@ B39162B3913U410
 6
 6
 open_bike_comp
+BME280
+
+
+0
+4
+4
+open_bike_comp
 BMP280
 
 
@@ -82305,6 +82354,27 @@ GY-9250
 0
 10
 10
+open_bike_comp
+KSC521JROHS
+
+
+0
+4
+2
+open_bike_comp
+KSC521JROHS_with_pad
+
+
+0
+5
+2
+open_bike_comp
+R303000402
+R30-3001602
+Hardware
+0
+1
+1
 open_bike_comp
 SAMTEC-CLP-104-02-X-D
 translated Allegro footprint

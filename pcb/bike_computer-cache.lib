@@ -22,23 +22,6 @@ X PROG 5 -400 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Connector_Conn_01x01_Female
-#
-DEF Connector_Conn_01x01_Female J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Conn_01x01_Female" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*
-$ENDFPLIST
-DRAW
-A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
-P 2 1 1 6 -50 0 -20 0 N
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Connector_Generic_Conn_01x02
 #
 DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
@@ -81,30 +64,41 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_SIM_Card
+# Connector_Generic_MountingPin_Conn_01x10_MountingPin
 #
-DEF Connector_SIM_Card J 0 40 Y Y 1 F N
-F0 "J" -100 500 50 H V R CNN
-F1 "Connector_SIM_Card" -50 400 50 H V R CNN
-F2 "" 0 350 50 H I C CNN
-F3 "" -50 0 50 H I C CNN
+DEF Connector_Generic_MountingPin_Conn_01x10_MountingPin J 0 40 Y N 1 F N
+F0 "J" 0 500 50 H V C CNN
+F1 "Connector_Generic_MountingPin_Conn_01x10_MountingPin" 50 -600 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- *SIM*Card*Holder*
+ Connector*:*_1x??-1MP*
 $ENDFPLIST
 DRAW
-S -50 -100 100 -50 0 1 10 F
-S -50 0 100 50 0 1 10 F
-S -50 100 100 150 0 1 10 F
-S 150 -50 300 -100 0 1 10 F
-S 150 0 300 50 0 1 10 F
-S 150 100 300 150 0 1 10 F
-P 6 0 1 10 -400 350 600 350 600 -150 500 -250 -400 -250 -400 350 f
-X VCC 1 -500 300 100 R 50 50 1 1 W
-X RST 2 -500 200 100 R 50 50 1 1 I
-X CLK 3 -500 100 100 R 50 50 1 1 I
-X GND 5 -500 0 100 R 50 50 1 1 W
-X VPP 6 -500 -100 100 R 50 50 1 1 I
-X I/O 7 -500 -200 100 R 50 50 1 1 B
+T 0 0 -565 15 0 1 1 Mounting Normal 0 C C
+S -50 -495 0 -505 1 1 6 N
+S -50 -395 0 -405 1 1 6 N
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 405 0 395 1 1 6 N
+S -50 450 50 -550 1 1 10 f
+P 2 1 1 6 -40 -580 40 -580 N
+X Pin_1 1 -200 400 150 R 50 50 1 1 P
+X Pin_10 10 -200 -500 150 R 50 50 1 1 P
+X Pin_2 2 -200 300 150 R 50 50 1 1 P
+X Pin_3 3 -200 200 150 R 50 50 1 1 P
+X Pin_4 4 -200 100 150 R 50 50 1 1 P
+X Pin_5 5 -200 0 150 R 50 50 1 1 P
+X Pin_6 6 -200 -100 150 R 50 50 1 1 P
+X Pin_7 7 -200 -200 150 R 50 50 1 1 P
+X Pin_8 8 -200 -300 150 R 50 50 1 1 P
+X Pin_9 9 -200 -400 150 R 50 50 1 1 P
+X MountPin MP 0 -700 120 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -225,19 +219,18 @@ X B 3 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Mechanical_MountingHole_Pad
+# Mechanical_MountingHole
 #
-DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
-F0 "H" 0 250 50 H V C CNN
-F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
+DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- MountingHole*Pad*
+ MountingHole*
 $ENDFPLIST
 DRAW
-C 0 50 50 0 1 50 N
-X 1 1 0 -100 100 U 50 50 1 1 I
+C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
@@ -419,6 +412,49 @@ X GND_1 9 1300 -200 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
+# SamacSys_Parts_78646-3001
+#
+DEF SamacSys_Parts_78646-3001 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "SamacSys_Parts_78646-3001" 750 200 50 H V L CNN
+F2 "78646-3001" 750 100 50 H I L CNN
+F3 "http://www.molex.com/webdocs/datasheets/pdf/en-us/0786463001_MEMORY_CARD_SOCKET.pdf" 750 0 50 H I L CNN
+F4 "micro-SIM card socket, push-pull SMT,6P micro-SIM card socket, push-pull SMT,6P" 750 -100 50 H I L CNN "Description"
+F5 "538-78646-3001" 750 -300 50 H I L CNN "Mouser Part Number"
+F6 "https://www.mouser.co.uk/ProductDetail/Molex/78646-3001?qs=73RpG39PUGjMbv8L71Th0w%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F7 "Molex" 750 -500 50 H I L CNN "Manufacturer_Name"
+F8 "78646-3001" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
+X C1 1 0 0 200 R 50 50 0 0 P
+X C2 2 0 -100 200 R 50 50 0 0 P
+X C3 3 0 -200 200 R 50 50 0 0 P
+X C5 4 900 0 200 L 50 50 0 0 P
+X C6 5 900 -100 200 L 50 50 0 0 P
+X C7 6 900 -200 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_CONUFL001-SMD
+#
+DEF SamacSys_Parts_CONUFL001-SMD ANT 0 30 Y Y 1 F N
+F0 "ANT" 950 300 50 H V L CNN
+F1 "SamacSys_Parts_CONUFL001-SMD" 950 200 50 H V L CNN
+F2 "CONUFL001-SMD" 950 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/CONUFL001-SMD.pdf" 950 0 50 H I L CNN
+F4 "RF Connectors / Coaxial Connectors U.FL Straight Surface Mount Jack" 950 -100 50 H I L CNN "Description"
+F5 "712-CONUFL001-SMD" 950 -300 50 H I L CNN "Mouser Part Number"
+F6 "https://www.mouser.co.uk/ProductDetail/Linx-Technologies/CONUFL001-SMD?qs=gt1LBUVyoHmYTl61nURe0w%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F7 "Linx Technologies" 950 -500 50 H I L CNN "Manufacturer_Name"
+F8 "CONUFL001-SMD" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+X SIG 1 0 0 200 R 50 50 0 0 I
+X GND_1 2 1100 0 200 L 50 50 0 0 P
+X GND_2 3 1100 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # SamacSys_Parts_MMSZ5231BT1G
 #
 DEF SamacSys_Parts_MMSZ5231BT1G Z 0 30 Y Y 1 F N
@@ -444,6 +480,49 @@ X ~ 2 600 0 100 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
+# SamacSys_Parts_MPU-9250
+#
+DEF SamacSys_Parts_MPU-9250 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 800 50 H V L CNN
+F1 "SamacSys_Parts_MPU-9250" 1050 700 50 H V L CNN
+F2 "QFN40P300X300X105-25N-D" 1050 600 50 H I L CNN
+F3 "https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf" 1050 500 50 H I L CNN
+F4 "Multiple Function Sensor Modules Nine-Axis (Gyro + Accelerometer + Compass) MEMS MotionTracking Device" 1050 400 50 H I L CNN "Description"
+F5 "1.05" 1050 300 50 H I L CNN "Height"
+F6 "410-MPU-9250" 1050 200 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TDK-InvenSense/MPU-9250?qs=u4fy%2FsgLU9OhGjFkQSZssA%3D%3D" 1050 100 50 H I L CNN "Mouser Price/Stock"
+F8 "InvenSense Inc." 1050 0 50 H I L CNN "Manufacturer_Name"
+F9 "MPU-9250" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 600 1000 600 1000 -1100 200 -1100 200 600 N
+X RESV_1 1 0 0 200 R 50 50 0 0 P
+X REGOUT 10 600 -1300 200 U 50 50 0 0 P
+X FSYNC 11 700 -1300 200 U 50 50 0 0 P
+X INT 12 800 -1300 200 U 50 50 0 0 P
+X VDD 13 1200 -500 200 L 50 50 0 0 P
+X NC_6 14 1200 -400 200 L 50 50 0 0 P
+X NC_7 15 1200 -300 200 L 50 50 0 0 P
+X NC_8 16 1200 -200 200 L 50 50 0 0 P
+X NC_9 17 1200 -100 200 L 50 50 0 0 P
+X GND 18 1200 0 200 L 50 50 0 0 P
+X RESV_2 19 900 800 200 D 50 50 0 0 P
+X NC_1 2 0 -100 200 R 50 50 0 0 P
+X RESV_3 20 800 800 200 D 50 50 0 0 P
+X AUX_DA 21 700 800 200 D 50 50 0 0 P
+X ~CS 22 600 800 200 D 50 50 0 0 P
+X SCL/SCLK 23 500 800 200 D 50 50 0 0 P
+X SDA/SDI 24 400 800 200 D 50 50 0 0 P
+X EP 25 300 800 200 D 50 50 0 0 P
+X NC_2 3 0 -200 200 R 50 50 0 0 P
+X NC_3 4 0 -300 200 R 50 50 0 0 P
+X NC_4 5 0 -400 200 R 50 50 0 0 P
+X NC_5 6 0 -500 200 R 50 50 0 0 P
+X AUX_CL 7 300 -1300 200 U 50 50 0 0 P
+X VDDIO 8 400 -1300 200 U 50 50 0 0 P
+X AD0/SDO 9 500 -1300 200 U 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # SamacSys_Parts_REG71050DDCR
 #
 DEF SamacSys_Parts_REG71050DDCR IC 0 30 Y Y 1 F N
@@ -465,6 +544,29 @@ X ENABLE 3 0 -200 200 R 50 50 0 0 P
 X CPUMP- 4 1400 -200 200 L 50 50 0 0 P
 X VIN 5 1400 -100 200 L 50 50 0 0 P
 X C_PUMP+ 6 1400 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_SR4G008
+#
+DEF SamacSys_Parts_SR4G008 ANT 0 30 Y Y 1 F N
+F0 "ANT" 1050 300 50 H V L CNN
+F1 "SamacSys_Parts_SR4G008" 1050 200 50 H V L CNN
+F2 "SR4G008" 1050 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/SR4G008.pdf" 1050 0 50 H I L CNN
+F4 "Antennas 1559-1609MHz Avg. Eff >75% Linear" 1050 -100 50 H I L CNN "Description"
+F5 "237-SR4G008" 1050 -300 50 H I L CNN "Mouser Part Number"
+F6 "https://www.mouser.co.uk/ProductDetail/Antenova/SR4G008?qs=vyIerDHf%2Fmn%2FnBMYNSbzrA%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F7 "Antenova" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F8 "SR4G008" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+X NC_1 1 0 0 200 R 50 50 0 0 P
+X FEED 2 0 -100 200 R 50 50 0 0 P
+X GND_1 3 0 -200 200 R 50 50 0 0 P
+X GND_2 4 1200 -200 200 L 50 50 0 0 P
+X NC_2 5 1200 -100 200 L 50 50 0 0 P
+X GND_3 6 1200 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
@@ -493,67 +595,21 @@ X ~ 2 500 0 100 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# SamacSys_Parts_W3010
+# Switch_SW_DPST_x2
 #
-DEF SamacSys_Parts_W3010 ANT 0 30 Y Y 1 F N
-F0 "ANT" 750 300 50 H V L CNN
-F1 "SamacSys_Parts_W3010" 750 200 50 H V L CNN
-F2 "ANTC10032X400N" 750 100 50 H I L CNN
-F3 "https://www.pulseelectronics.com/docs/library/W3010.pdf" 750 0 50 H I L CNN
-F4 "Pulse SMT Antenna W3010, 1575.42 MHz" 750 -100 50 H I L CNN "Description"
-F5 "4" 750 -200 50 H I L CNN "Height"
-F6 "673-W3010" 750 -300 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.co.uk/ProductDetail/PulseLarsen-Antennas/W3010?qs=zks35mai6wNg7ENA8KnmdA%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
-F8 "Pulse" 750 -500 50 H I L CNN "Manufacturer_Name"
-F9 "W3010" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
-DRAW
-P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
-X FEED 1 0 0 200 R 50 50 0 0 I
-X NC 2 0 -100 200 R 50 50 0 0 N
-ENDDRAW
-ENDDEF
-#
-# SamacSys_Parts_W3073
-#
-DEF SamacSys_Parts_W3073 ANT 0 30 Y Y 1 F N
-F0 "ANT" 750 300 50 H V L CNN
-F1 "SamacSys_Parts_W3073" 750 200 50 H V L CNN
-F2 "ANTC10032X410N" 750 100 50 H I L CNN
-F3 "" 750 0 50 H I L CNN
-F4 "Antennas Quad Band Antenna Ceramic 3G/GSM" 750 -100 50 H I L CNN "Description"
-F5 "4.1" 750 -200 50 H I L CNN "Height"
-F6 "673-W3073" 750 -300 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.co.uk/ProductDetail/PulseLarsen-Antennas/W3073?qs=opBjA1TV901jiGPqzhsErg%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
-F8 "Pulse" 750 -500 50 H I L CNN "Manufacturer_Name"
-F9 "W3073" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
-DRAW
-P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
-X FEED 1 0 0 200 R 50 50 0 0 I
-X NC 2 0 -100 200 R 50 50 0 0 N
-ENDDRAW
-ENDDEF
-#
-# Switch_SW_DPDT_x2
-#
-DEF Switch_SW_DPDT_x2 SW 0 0 Y N 2 F N
-F0 "SW" 0 170 50 H V C CNN
-F1 "Switch_SW_DPDT_x2" 0 -200 50 H V C CNN
+DEF Switch_SW_DPST_x2 SW 0 0 Y N 2 F N
+F0 "SW" 0 125 50 H V C CNN
+F1 "Switch_SW_DPST_x2" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-$FPLIST
- SW*DPDT*
-$ENDFPLIST
 DRAW
 C -80 0 20 0 0 0 N
-C 80 -100 20 0 0 0 N
-C 80 100 20 0 1 0 N
-P 2 0 1 0 -60 10 65 90 N
-X A 1 200 100 100 L 50 50 1 1 P
-X B 2 -200 0 100 R 50 50 1 1 P
-X C 3 200 -100 100 L 50 50 1 1 P
-X A 4 200 100 100 L 50 50 2 1 P
-X B 5 -200 0 100 R 50 50 2 1 P
-X C 6 200 -100 100 L 50 50 2 1 P
+C 80 0 20 0 0 0 N
+P 2 0 0 0 -60 10 60 70 N
+X A 1 -200 0 100 R 50 50 1 1 P
+X B 2 200 0 100 L 50 50 1 1 P
+X A 3 -200 0 100 R 50 50 2 1 P
+X B 4 200 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
@@ -710,11 +766,11 @@ X GND 6 1450 100 200 L 40 40 0 0 W
 ENDDRAW
 ENDDEF
 #
-# open_bike_comp_BMP280
+# open_bike_comp_BME280
 #
-DEF open_bike_comp_BMP280 U 0 40 Y Y 1 F N
+DEF open_bike_comp_BME280 U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "open_bike_comp_BMP280" 0 0 50 H V C CNN
+F1 "open_bike_comp_BME280" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -745,74 +801,6 @@ X VDDA 6 -350 -300 100 R 50 50 1 1 I
 X VDD 7 -350 -400 100 R 50 50 1 1 I
 X EXTMODE 8 -350 -500 100 R 50 50 1 1 I
 X VSS 9 -350 -600 100 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# open_bike_comp_MPU_9250
-#
-DEF open_bike_comp_MPU_9250 U 0 40 Y Y 1 F N
-F0 "U" 250 0 50 H V C CNN
-F1 "open_bike_comp_MPU_9250" 250 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S 100 -150 450 -1150 0 1 0 N
-X VCC 1 0 -200 100 R 50 50 1 1 I
-X FSYNC 10 0 -1100 100 R 50 50 1 1 I
-X GND 2 0 -300 100 R 50 50 1 1 I
-X SCL 3 0 -400 100 R 50 50 1 1 I
-X SDA 4 0 -500 100 R 50 50 1 1 I
-X EDA 5 0 -600 100 R 50 50 1 1 I
-X ECL 6 0 -700 100 R 50 50 1 1 I
-X AD0 7 0 -800 100 R 50 50 1 1 I
-X INT 8 0 -900 100 R 50 50 1 1 I
-X NCS 9 0 -1000 100 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# open_bike_comp_SAMTEC-CLP-104-02-X-D
-#
-DEF open_bike_comp_SAMTEC-CLP-104-02-X-D J 0 40 Y Y 1 L N
-F0 "J" 0 200 50 H V L BNN
-F1 "open_bike_comp_SAMTEC-CLP-104-02-X-D" 100 100 26 H V L BNN
-F2 "SAMTEC-CLP-104-02-X-D" 0 0 50 H I L BNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 0 10 0 -500 0 200 N
-P 2 0 0 10 0 200 799 200 N
-P 2 0 0 10 799 -500 0 -500 N
-P 2 0 0 10 799 200 799 -500 N
-X 1 1 -200 0 200 R 40 40 0 0 P
-X 2 2 1000 0 200 L 40 40 0 0 P
-X 3 3 -200 -100 200 R 40 40 0 0 P
-X 4 4 1000 -100 200 L 40 40 0 0 P
-X 5 5 -200 -200 200 R 40 40 0 0 P
-X 6 6 1000 -200 200 L 40 40 0 0 P
-X 7 7 -200 -300 200 R 40 40 0 0 P
-X 8 8 1000 -300 200 L 40 40 0 0 P
-ENDDRAW
-ENDDEF
-#
-# open_bike_comp_SAMTEC-FTSH-104-01-X-DV
-#
-DEF open_bike_comp_SAMTEC-FTSH-104-01-X-DV J 0 40 Y Y 1 L N
-F0 "J" 0 200 50 H V L BNN
-F1 "open_bike_comp_SAMTEC-FTSH-104-01-X-DV" 100 100 26 H V L BNN
-F2 "SAMTEC-FTSH-104-01-X-DV" 0 0 50 H I L BNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 0 10 0 -500 0 200 N
-P 2 0 0 10 0 200 799 200 N
-P 2 0 0 10 799 -500 0 -500 N
-P 2 0 0 10 799 200 799 -500 N
-X 1 1 -200 0 200 R 40 40 0 0 P
-X 2 2 1000 0 200 L 40 40 0 0 P
-X 3 3 -200 -100 200 R 40 40 0 0 P
-X 4 4 1000 -100 200 L 40 40 0 0 P
-X 5 5 -200 -200 200 R 40 40 0 0 P
-X 6 6 1000 -200 200 L 40 40 0 0 P
-X 7 7 -200 -300 200 R 40 40 0 0 P
-X 8 8 1000 -300 200 L 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
